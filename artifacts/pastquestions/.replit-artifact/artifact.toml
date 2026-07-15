@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Past Questions Practice"
+version = "1.0.0"
+id = "artifacts/pastquestions"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18786
+
+[services.development]
+run = "pnpm --filter @workspace/pastquestions run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/pastquestions", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/pastquestions/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18786"
+BASE_PATH = "/"

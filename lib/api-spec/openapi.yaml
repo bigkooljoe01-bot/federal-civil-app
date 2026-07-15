@@ -3,13 +3,28 @@ info:
   # Do not change the title, if the title changes, the import paths will be broken
   title: Api
   version: 0.1.0
-  description: API specification
+  description: Past Questions Practice Website API
 servers:
   - url: /api
     description: Base API path
 tags:
   - name: health
     description: Health operations
+  - name: Auth
+    description: Browser and mobile authentication endpoints.
+  - name: Users
+    description: User management
+  - name: Subjects
+    description: Subject management
+  - name: Exams
+    description: Exam type management
+  - name: Questions
+    description: Question management
+  - name: Attempts
+    description: Exam attempt management
+  - name: Stats
+    description: Stats and dashboard summaries
+
 paths:
   /healthz:
     get:
@@ -24,7 +39,750 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+
+  /auth/user:
+    get:
+      tags: [Auth]
+      operationId: getCurrentAuthUser
+      summary: Get the currently authenticated user
+      parameters:
+        - $ref: '#/components/parameters/AuthorizationSessionHeader'
+        - $ref: '#/components/parameters/SessionCookie'
+      responses:
+        '200':
+          description: Auth status resolved successfully.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthUserEnvelope'
+
+  /login:
+    get:
+      tags: [Auth]
+      operationId: beginBrowserLogin
+      summary: Start the browser OIDC login flow
+      parameters:
+        - name: returnTo
+          in: query
+          required: false
+          schema:
+            type: string
+      responses:
+        '302':
+          description: Redirect to the OIDC authorization endpoint.
+
+  /callback:
+    get:
+      tags: [Auth]
+      operationId: handleBrowserLoginCallback
+      summary: Complete the browser OIDC login flow
+      parameters:
+        - name: code
+          in: query
+          required: false
+          schema:
+            type: string
+        - name: state
+          in: query
+          required: false
+          schema:
+            type: string
+        - name: iss
+          in: query
+          required: false
+          schema:
+            type: string
+  
+      responses:
+        '302':
+          description: Redirect to the returnTo path on success.
+
+  /logout:
+    get:
+      tags: [Auth]
+      operationId: logoutBrowserSession
+      summary: Clear the session and begin OIDC logout
+      parameters:
+        - $ref: '#/components/parameters/AuthorizationSessionHeader'
+        - $ref: '#/components/parameters/SessionCookie'
+        - name: returnTo
+          in: query
+          required: false
+          schema:
+            type: string
+            default: /
+      responses:
+        '302':
+          description: Redirect to the OIDC provider logout URL.
+
+  /mobile-auth/token-exchange:
+    post:
+      tags: [Auth]
+      operationId: exchangeMobileAuthorizationCode
+      summary: Exchange a mobile OIDC code for a session token
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MobileTokenExchangeRequest'
+      responses:
+        '200':
+          description: Session created successfully.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MobileTokenExchangeSuccess'
+        '400':
+          description: Missing or invalid required fields.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorEnvelope'
+        '401':
+          description: Token did not contain usable claims.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorEnvelope'
+        '500':
+          description: Token exchange failed.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorEnvelope'
+
+  /mobile-auth/logout:
+    post:
+      tags: [Auth]
+      operationId: logoutMobileSession
+      summary: Delete a mobile session token
+      parameters:
+        - $ref: '#/components/parameters/AuthorizationSessionHeader'
+      responses:
+        '200':
+          description: Logout processed.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LogoutSuccess'
+
+  # ─── Users ──────────────────────────────────────────────────────────────────
+
+  /users:
+    get:
+      tags: [Users]
+      operationId: listUsers
+      summary: List all users (admin only)
+      parameters:
+        - name: page
+          in: query
+          required: false
+          schema: { type: integer, default: 1 }
+        - name: limit
+          in: query
+          required: false
+          schema: { type: integer, default: 20 }
+        - name: search
+          in: query
+          required: false
+          schema: { type: string }
+      responses:
+        "200":
+          description: List of users
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/UserListResponse"
+
+  /users/me:
+    get:
+      tags: [Users]
+      operationId: getMe
+      summary: Get current user profile
+      responses:
+        "200":
+          description: Current user
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+        "401":
+          description: Unauthorized
+
+    patch:
+      tags: [Users]
+      operationId: updateMe
+      summary: Update current user profile
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UserUpdate"
+      responses:
+        "200":
+          description: Updated user
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+
+  /users/{userId}:
+    get:
+      tags: [Users]
+      operationId: getUser
+      summary: Get a user by ID (admin only)
+      parameters:
+        - name: userId
+          in: path
+          required: true
+          schema: { type: integer }
+      responses:
+        "200":
+          description: User
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+        "404":
+          description: Not found
+
+  /users/{userId}/stats:
+    get:
+      tags: [Users]
+      operationId: getUserStats
+      summary: Get stats for a specific user
+      parameters:
+        - name: userId
+          in: path
+          required: true
+          schema: { type: integer }
+      responses:
+        "200":
+          description: User stats
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/UserStats"
+
+  # ─── Subjects ────────────────────────────────────────────────────────────────
+
+  /subjects:
+    get:
+      tags: [Subjects]
+      operationId: listSubjects
+      summary: List all subjects
+      responses:
+        "200":
+          description: List of subjects
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Subject"
+
+    post:
+      tags: [Subjects]
+      operationId: createSubject
+      summary: Create a subject (admin only)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/SubjectInput"
+      responses:
+        "201":
+          description: Created subject
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Subject"
+
+  /subjects/{subjectId}:
+    patch:
+      tags: [Subjects]
+      operationId: updateSubject
+      summary: Update a subject (admin only)
+      parameters:
+        - name: subjectId
+          in: path
+          required: true
+          schema: { type: integer }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/SubjectInput"
+      responses:
+        "200":
+          description: Updated subject
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Subject"
+
+    delete:
+      tags: [Subjects]
+      operationId: deleteSubject
+      summary: Delete a subject (admin only)
+      parameters:
+        - name: subjectId
+          in: path
+          required: true
+          schema: { type: integer }
+      responses:
+        "204":
+          description: Deleted
+
+  # ─── Exam Types ──────────────────────────────────────────────────────────────
+
+  /exam-types:
+    get:
+      tags: [Exams]
+      operationId: listExamTypes
+      summary: List all exam types (WAEC, NECO, JAMB, etc.)
+      responses:
+        "200":
+          description: List of exam types
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/ExamType"
+
+    post:
+      tags: [Exams]
+      operationId: createExamType
+      summary: Create an exam type (admin only)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ExamTypeInput"
+      responses:
+        "201":
+          description: Created exam type
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ExamType"
+
+  /exam-types/{examTypeId}:
+    patch:
+      tags: [Exams]
+      operationId: updateExamType
+      summary: Update an exam type (admin only)
+      parameters:
+        - name: examTypeId
+          in: path
+          required: true
+          schema: { type: integer }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ExamTypeInput"
+      responses:
+        "200":
+          description: Updated exam type
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ExamType"
+
+    delete:
+      tags: [Exams]
+      operationId: deleteExamType
+      summary: Delete an exam type (admin only)
+      parameters:
+        - name: examTypeId
+          in: path
+          required: true
+          schema: { type: integer }
+      responses:
+        "204":
+          description: Deleted
+
+  # ─── Questions ───────────────────────────────────────────────────────────────
+
+  /questions:
+    get:
+      tags: [Questions]
+      operationId: listQuestions
+      summary: List questions with optional filters
+      parameters:
+        - name: examTypeId
+          in: query
+          required: false
+          schema: { type: integer }
+        - name: subjectId
+          in: query
+          required: false
+          schema: { type: integer }
+        - name: year
+          in: query
+          required: false
+          schema: { type: integer }
+        - name: topic
+          in: query
+          required: false
+          schema: { type: string }
+        - name: page
+          in: query
+          required: false
+          schema: { type: integer, default: 1 }
+        - name: limit
+          in: query
+          required: false
+          schema: { type: integer, default: 50 }
+        - name: published
+          in: query
+          required: false
+          schema: { type: boolean }
+      responses:
+        "200":
+          description: List of questions
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/QuestionListResponse"
+
+    post:
+      tags: [Questions]
+      operationId: createQuestion
+      summary: Create a question (admin only)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/QuestionInput"
+      responses:
+        "201":
+          description: Created question
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Question"
+
+  /questions/{questionId}:
+    get:
+      tags: [Questions]
+      operationId: getQuestion
+      summary: Get a question by ID
+      parameters:
+        - name: questionId
+          in: path
+          required: true
+          schema: { type: integer }
+      responses:
+        "200":
+          description: Question
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Question"
+        "404":
+          description: Not found
+
+    patch:
+      tags: [Questions]
+      operationId: updateQuestion
+      summary: Update a question (admin only)
+      parameters:
+        - name: questionId
+          in: path
+          required: true
+          schema: { type: integer }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/QuestionUpdate"
+      responses:
+        "200":
+          description: Updated question
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Question"
+
+    delete:
+      tags: [Questions]
+      operationId: deleteQuestion
+      summary: Delete a question (admin only)
+      parameters:
+        - name: questionId
+          in: path
+          required: true
+          schema: { type: integer }
+      responses:
+        "204":
+          description: Deleted
+
+  /questions/{questionId}/publish:
+    patch:
+      tags: [Questions]
+      operationId: publishQuestion
+      summary: Publish or unpublish a question (admin only)
+      parameters:
+        - name: questionId
+          in: path
+          required: true
+          schema: { type: integer }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/PublishToggle"
+      responses:
+        "200":
+          description: Updated question
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Question"
+
+  /questions/years:
+    get:
+      tags: [Questions]
+      operationId: listAvailableYears
+      summary: List available years for a given exam type and subject
+      parameters:
+        - name: examTypeId
+          in: query
+          required: false
+          schema: { type: integer }
+        - name: subjectId
+          in: query
+          required: false
+          schema: { type: integer }
+      responses:
+        "200":
+          description: List of years
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: integer
+
+  # ─── Exam Sessions (Practice Sets) ──────────────────────────────────────────
+
+  /exam-sessions:
+    post:
+      tags: [Attempts]
+      operationId: startExamSession
+      summary: Start a new exam session
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ExamSessionInput"
+      responses:
+        "201":
+          description: Created exam session with questions
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ExamSession"
+
+  /exam-sessions/active:
+    get:
+      tags: [Attempts]
+      operationId: getActiveExamSession
+      summary: Get the current user's active (in-progress) exam session if any
+      responses:
+        "200":
+          description: Active session or null
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ExamSessionOrNull"
+
+  /exam-sessions/{sessionId}:
+    get:
+      tags: [Attempts]
+      operationId: getExamSession
+      summary: Get an exam session by ID
+      parameters:
+        - name: sessionId
+          in: path
+          required: true
+          schema: { type: integer }
+      responses:
+        "200":
+          description: Exam session
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ExamSession"
+        "404":
+          description: Not found
+
+  /exam-sessions/{sessionId}/answer:
+    patch:
+      tags: [Attempts]
+      operationId: saveAnswer
+      summary: Save an answer for a question in the session
+      parameters:
+        - name: sessionId
+          in: path
+          required: true
+          schema: { type: integer }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AnswerInput"
+      responses:
+        "200":
+          description: Answer saved
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SessionQuestion"
+
+  /exam-sessions/{sessionId}/flag:
+    patch:
+      tags: [Attempts]
+      operationId: flagQuestion
+      summary: Flag or unflag a question in the session
+      parameters:
+        - name: sessionId
+          in: path
+          required: true
+          schema: { type: integer }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/FlagInput"
+      responses:
+        "200":
+          description: Flag updated
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SessionQuestion"
+
+  /exam-sessions/{sessionId}/submit:
+    post:
+      tags: [Attempts]
+      operationId: submitExamSession
+      summary: Submit the exam session and compute results
+      parameters:
+        - name: sessionId
+          in: path
+          required: true
+          schema: { type: integer }
+      responses:
+        "200":
+          description: Exam result
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ExamResult"
+
+  /exam-sessions/{sessionId}/review:
+    get:
+      tags: [Attempts]
+      operationId: getExamReview
+      summary: Get the full review for a completed session (answers + correct answers + explanations)
+      parameters:
+        - name: sessionId
+          in: path
+          required: true
+          schema: { type: integer }
+      responses:
+        "200":
+          description: Review data
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ExamReview"
+
+  # ─── History ────────────────────────────────────────────────────────────────
+
+  /my-attempts:
+    get:
+      tags: [Attempts]
+      operationId: listMyAttempts
+      summary: List the current user's completed exam attempts
+      parameters:
+        - name: page
+          in: query
+          required: false
+          schema: { type: integer, default: 1 }
+        - name: limit
+          in: query
+          required: false
+          schema: { type: integer, default: 20 }
+      responses:
+        "200":
+          description: List of attempts
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AttemptListResponse"
+
+  # ─── Stats / Dashboard ───────────────────────────────────────────────────────
+
+  /stats/dashboard:
+    get:
+      tags: [Stats]
+      operationId: getDashboardStats
+      summary: Get dashboard summary stats (admin)
+      responses:
+        "200":
+          description: Dashboard stats
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DashboardStats"
+
+  /stats/my-progress:
+    get:
+      tags: [Stats]
+      operationId: getMyProgress
+      summary: Get the current user's progress summary
+      responses:
+        "200":
+          description: Progress summary
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/MyProgress"
+
 components:
+  parameters:
+    AuthorizationSessionHeader:
+      name: Authorization
+      in: header
+      required: false
+      description: Opaque session token — `Bearer <sid>`.
+      schema:
+        type: string
+    SessionCookie:
+      name: sid
+      in: cookie
+      required: false
+      description: Browser session cookie.
+      schema:
+        type: string
+
   schemas:
     HealthStatus:
       type: object
@@ -34,3 +792,411 @@ components:
       required:
         - status
 
+    # ── Auth ─────────────────────────────────────────────────────────────────
+    AuthUser:
+      type: object
+      required: [id, email, firstName, lastName, profileImageUrl]
+      properties:
+        id:
+          type: string
+        email:
+          type: [string, 'null']
+        firstName:
+          type: [string, 'null']
+        lastName:
+          type: [string, 'null']
+        profileImageUrl:
+          type: [string, 'null']
+    AuthUserEnvelope:
+      type: object
+      required: [user]
+      properties:
+        user:
+          oneOf:
+            - $ref: '#/components/schemas/AuthUser'
+            - type: 'null'
+    MobileTokenExchangeRequest:
+      type: object
+      required: [code, code_verifier, redirect_uri, state]
+      properties:
+        code:
+          type: string
+          minLength: 1
+        code_verifier:
+          type: string
+          minLength: 1
+        redirect_uri:
+          type: string
+          minLength: 1
+
+        state:
+          type: string
+          minLength: 1
+        nonce:
+          type: string
+          minLength: 1
+    MobileTokenExchangeSuccess:
+      type: object
+      required: [token]
+      properties:
+        token:
+          type: string
+    LogoutSuccess:
+      type: object
+      required: [success]
+      properties:
+        success:
+          type: boolean
+          const: true
+    ErrorEnvelope:
+      type: object
+      required: [error]
+      properties:
+        error:
+          type: string
+
+    # ── Users ────────────────────────────────────────────────────────────────
+    User:
+      type: object
+      required: [id, replitId, username, role, createdAt]
+      properties:
+        id: { type: integer }
+        replitId: { type: string }
+        username: { type: string }
+        firstName: { type: ["string", "null"] }
+        lastName: { type: ["string", "null"] }
+        email: { type: ["string", "null"] }
+        profileImageUrl: { type: ["string", "null"] }
+        role: { type: string, enum: [student, admin] }
+        createdAt: { type: string, format: date-time }
+
+    UserUpdate:
+      type: object
+      properties:
+        username: { type: string, minLength: 1 }
+
+    UserListResponse:
+      type: object
+      required: [users, total, page, limit]
+      properties:
+        users:
+          type: array
+          items:
+            $ref: "#/components/schemas/User"
+        total: { type: integer }
+        page: { type: integer }
+        limit: { type: integer }
+
+    UserStats:
+      type: object
+      required: [userId, totalAttempts, averageScore, totalQuestionsAnswered]
+      properties:
+        userId: { type: integer }
+        totalAttempts: { type: integer }
+        averageScore: { type: number }
+        totalQuestionsAnswered: { type: integer }
+        bestScore: { type: ["number", "null"] }
+        lastAttemptAt: { type: ["string", "null"], format: date-time }
+
+    # ── Subjects ─────────────────────────────────────────────────────────────
+    Subject:
+      type: object
+      required: [id, name, createdAt]
+      properties:
+        id: { type: integer }
+        name: { type: string }
+        description: { type: ["string", "null"] }
+        createdAt: { type: string, format: date-time }
+
+    SubjectInput:
+      type: object
+      required: [name]
+      properties:
+        name: { type: string, minLength: 1 }
+        description: { type: string }
+
+    # ── Exam Types ────────────────────────────────────────────────────────────
+    ExamType:
+      type: object
+      required: [id, name, createdAt]
+      properties:
+        id: { type: integer }
+        name: { type: string }
+        description: { type: ["string", "null"] }
+        createdAt: { type: string, format: date-time }
+
+    ExamTypeInput:
+      type: object
+      required: [name]
+      properties:
+        name: { type: string, minLength: 1 }
+        description: { type: string }
+
+    # ── Questions ─────────────────────────────────────────────────────────────
+    AnswerOption:
+      type: object
+      required: [id, letter, text]
+      properties:
+        id: { type: integer }
+        letter: { type: string }
+        text: { type: string }
+
+    Question:
+      type: object
+      required: [id, text, examTypeId, subjectId, year, options, correctLetter, published, createdAt]
+      properties:
+        id: { type: integer }
+        text: { type: string }
+        examTypeId: { type: integer }
+        subjectId: { type: integer }
+        examTypeName: { type: ["string", "null"] }
+        subjectName: { type: ["string", "null"] }
+        year: { type: integer }
+        topic: { type: ["string", "null"] }
+        explanation: { type: ["string", "null"] }
+        options: { type: array, items: { $ref: "#/components/schemas/AnswerOption" } }
+        correctLetter: { type: string }
+        published: { type: boolean }
+        createdAt: { type: string, format: date-time }
+
+    QuestionInput:
+      type: object
+      required: [text, examTypeId, subjectId, year, options, correctLetter]
+      properties:
+        text: { type: string, minLength: 1 }
+        examTypeId: { type: integer }
+        subjectId: { type: integer }
+        year: { type: integer }
+        topic: { type: string }
+        explanation: { type: string }
+        correctLetter: { type: string, minLength: 1 }
+        published: { type: boolean, default: false }
+        options:
+          type: array
+          minItems: 2
+          items:
+            type: object
+            required: [letter, text]
+            properties:
+              letter: { type: string }
+              text: { type: string }
+
+    QuestionUpdate:
+      type: object
+      properties:
+        text: { type: string, minLength: 1 }
+        examTypeId: { type: integer }
+        subjectId: { type: integer }
+        year: { type: integer }
+        topic: { type: string }
+        explanation: { type: string }
+        correctLetter: { type: string }
+        published: { type: boolean }
+        options:
+          type: array
+          minItems: 2
+          items:
+            type: object
+            required: [letter, text]
+            properties:
+              letter: { type: string }
+              text: { type: string }
+
+    PublishToggle:
+      type: object
+      required: [published]
+      properties:
+        published: { type: boolean }
+
+    QuestionListResponse:
+      type: object
+      required: [questions, total, page, limit]
+      properties:
+        questions:
+          type: array
+          items:
+            $ref: "#/components/schemas/Question"
+        total: { type: integer }
+        page: { type: integer }
+        limit: { type: integer }
+
+    # ── Exam Sessions ──────────────────────────────────────────────────────────
+    ExamSessionInput:
+      type: object
+      required: [examTypeId, subjectId, year]
+      properties:
+        examTypeId: { type: integer }
+        subjectId: { type: integer }
+        year: { type: integer }
+        durationMinutes: { type: integer, default: 60 }
+
+    SessionQuestion:
+      type: object
+      required: [id, questionId, position, selectedLetter, flagged]
+      properties:
+        id: { type: integer }
+        questionId: { type: integer }
+        position: { type: integer }
+        selectedLetter: { type: ["string", "null"] }
+        flagged: { type: boolean }
+        question: { $ref: "#/components/schemas/Question" }
+
+    ExamSession:
+      type: object
+      required: [id, userId, examTypeId, subjectId, year, status, startedAt, durationMinutes, questions]
+      properties:
+        id: { type: integer }
+        userId: { type: integer }
+        examTypeId: { type: integer }
+        subjectId: { type: integer }
+        year: { type: integer }
+        examTypeName: { type: ["string", "null"] }
+        subjectName: { type: ["string", "null"] }
+        status: { type: string, enum: [in_progress, submitted] }
+        startedAt: { type: string, format: date-time }
+        submittedAt: { type: ["string", "null"], format: date-time }
+        durationMinutes: { type: integer }
+        questions:
+          type: array
+          items:
+            $ref: "#/components/schemas/SessionQuestion"
+
+    ExamSessionOrNull:
+      type: object
+      required: [session]
+      properties:
+        session:
+          oneOf:
+            - $ref: "#/components/schemas/ExamSession"
+            - type: "null"
+
+    AnswerInput:
+      type: object
+      required: [questionId, selectedLetter]
+      properties:
+        questionId: { type: integer }
+        selectedLetter: { type: ["string", "null"] }
+
+    FlagInput:
+      type: object
+      required: [questionId, flagged]
+      properties:
+        questionId: { type: integer }
+        flagged: { type: boolean }
+
+    ExamResult:
+      type: object
+      required: [sessionId, userId, totalQuestions, correct, wrong, unanswered, score, percentage, passed, submittedAt]
+      properties:
+        sessionId: { type: integer }
+        userId: { type: integer }
+        userName: { type: ["string", "null"] }
+        examTypeName: { type: ["string", "null"] }
+        subjectName: { type: ["string", "null"] }
+        year: { type: integer }
+        totalQuestions: { type: integer }
+        correct: { type: integer }
+        wrong: { type: integer }
+        unanswered: { type: integer }
+        score: { type: number }
+        percentage: { type: number }
+        passed: { type: boolean }
+        submittedAt: { type: string, format: date-time }
+
+    ReviewQuestion:
+      type: object
+      required: [position, questionId, questionText, options, selectedLetter, correctLetter, isCorrect]
+      properties:
+        position: { type: integer }
+        questionId: { type: integer }
+        questionText: { type: string }
+        options:
+          type: array
+          items:
+            $ref: "#/components/schemas/AnswerOption"
+        selectedLetter: { type: ["string", "null"] }
+        correctLetter: { type: string }
+        isCorrect: { type: boolean }
+        explanation: { type: ["string", "null"] }
+        flagged: { type: boolean }
+
+    ExamReview:
+      type: object
+      required: [sessionId, result, questions]
+      properties:
+        sessionId: { type: integer }
+        result: { $ref: "#/components/schemas/ExamResult" }
+        questions:
+          type: array
+          items:
+            $ref: "#/components/schemas/ReviewQuestion"
+
+    # ── Attempts History ───────────────────────────────────────────────────────
+    AttemptSummary:
+      type: object
+      required: [sessionId, examTypeName, subjectName, year, score, percentage, passed, totalQuestions, submittedAt]
+      properties:
+        sessionId: { type: integer }
+        examTypeName: { type: string }
+        subjectName: { type: string }
+        year: { type: integer }
+        score: { type: number }
+        percentage: { type: number }
+        passed: { type: boolean }
+        totalQuestions: { type: integer }
+        correct: { type: integer }
+        submittedAt: { type: string, format: date-time }
+
+    AttemptListResponse:
+      type: object
+      required: [attempts, total, page, limit]
+      properties:
+        attempts:
+          type: array
+          items:
+            $ref: "#/components/schemas/AttemptSummary"
+        total: { type: integer }
+        page: { type: integer }
+        limit: { type: integer }
+
+    # ── Stats ─────────────────────────────────────────────────────────────────
+    DashboardStats:
+      type: object
+      required: [totalUsers, totalQuestions, totalAttempts, publishedQuestions]
+      properties:
+        totalUsers: { type: integer }
+        totalQuestions: { type: integer }
+        publishedQuestions: { type: integer }
+        totalAttempts: { type: integer }
+        totalSubjects: { type: integer }
+        totalExamTypes: { type: integer }
+        recentAttempts:
+          type: array
+          items:
+            $ref: "#/components/schemas/AttemptSummary"
+
+    SubjectProgress:
+      type: object
+      required: [subjectId, subjectName, attempts, averageScore]
+      properties:
+        subjectId: { type: integer }
+        subjectName: { type: string }
+        attempts: { type: integer }
+        averageScore: { type: number }
+
+    MyProgress:
+      type: object
+      required: [totalAttempts, averageScore, totalQuestionsAnswered, subjectBreakdown]
+      properties:
+        totalAttempts: { type: integer }
+        averageScore: { type: number }
+        totalQuestionsAnswered: { type: integer }
+        bestScore: { type: ["number", "null"] }
+        recentAttempts:
+          type: array
+          items:
+            $ref: "#/components/schemas/AttemptSummary"
+        subjectBreakdown:
+          type: array
+          items:
+            $ref: "#/components/schemas/SubjectProgress"

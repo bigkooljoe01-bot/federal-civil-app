@@ -1,0 +1,148 @@
+Build an Online Past Questions Practice Website
+
+Create a modern, responsive web application that allows users to practice examination past questions extracted from PDF files that I upload.
+
+User Authentication
+
+* Create a secure login system.
+* Every user must register with:
+    * Full Name
+    * Username
+    * Email (optional)
+    * Password
+* Passwords must be securely hashed.
+* Users can log in and log out.
+* Users can only view their own results and progress.
+
+Admin Dashboard
+
+Create an admin dashboard where I can:
+
+* Upload PDF past question papers.
+* The system should automatically extract questions and answer options from the PDF whenever possible.
+* Allow me to edit extracted questions before publishing.
+* Add, edit, or delete questions manually.
+* Organize questions by:
+    * Subject
+    * Year
+    * Examination (WAEC, NECO, JAMB, etc.)
+    * Topic
+* View all registered users.
+* View users’ scores and exam history.
+
+Student Dashboard
+
+After login, users should be able to:
+
+* Select an examination.
+* Select a subject.
+* Select a year.
+* Start the test.
+* Continue unfinished tests if enabled.
+* View previous scores.
+* Review completed exams if enabled.
+
+Exam Interface
+
+The exam page should look professional and clean.
+
+Each question should display:
+
+* Question number
+* Question text
+* Four answer options (A–D or as available)
+* Radio button selection
+
+Navigation buttons:
+
+* Previous
+* Next
+* Skip
+* Submit Exam
+
+Also include:
+
+* Question palette showing answered, unanswered, and flagged questions.
+* Countdown timer
+* Progress bar showing completion percentage.
+* Confirm dialog before final submission.
+
+Scoring
+
+When the user clicks Submit:
+
+* Automatically mark the answers.
+* Calculate:
+    * Total score
+    * Percentage
+    * Number correct
+    * Number wrong
+    * Unanswered questions
+* Display Pass/Fail status if required.
+* Save the result permanently to the user’s account.
+
+Result Page
+
+Display:
+
+* Candidate name
+* Username
+* Examination
+* Date and time
+* Total questions
+* Correct answers
+* Wrong answers
+* Percentage
+* Final score
+
+Include buttons for:
+
+* Review Answers
+* Return to Dashboard
+* Print Result
+* Download PDF Result
+
+Review Mode
+
+After submission, allow users to review:
+
+* Their selected answer
+* The correct answer
+* An explanation
+
+Highlight:
+
+* Correct answers in green
+* Wrong answers in red
+
+Database
+
+Use a proper database (PostgreSQL or SQLite during development).
+
+Store:
+
+* Users
+* Questions
+* Answer options
+* Correct answers
+* Subjects
+* Exams
+* Uploaded PDFs
+* Exam attempts
+* Scores
+* User progress
+
+Design
+
+Use a modern UI with:
+
+* Responsive layout for mobile and desktop
+* Light and Dark mode
+* Attractive dashboard
+* Smooth animations
+* Professional typography
+* Accessible design
+
+Final Requirement
+
+Write clean, well-documented code with a modular structure. Ensure the application is production-ready, fast, secure, and easy to maintain. Include setup instructions, database migrations, and sample data. The website should work seamlessly on computers, tablets, and mobile phones.
