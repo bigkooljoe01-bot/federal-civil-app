@@ -1,191 +1,137 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useLocation } from "wouter";
-import { 
-  useListExamTypes, 
-  useListSubjects, 
-  useListAvailableYears, 
-  useStartExamSession 
-} from "@workspace/api-client-react";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Button } from "@/components/ui/button";
-import { Label } from "@/components/ui/label";
-import { BookOpen, Calendar, Target, Loader2, PlayCircle } from "lucide-react";
+import { useListSubjects, useStartExamSession } from "@workspace/api-client-react";
+import { Card, CardContent } from "@/components/ui/card";
+import { Loader2, FileText, Shield, BookMarked, Globe, ArrowRight } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
-export default function PracticeSetup() {
+const SUBJECT_ICONS: Record<string, React.ElementType> = {
+  "Public Service Rules": FileText,
+  "Financial Regulations": Shield,
+  "Civil Service Handbook": BookMarked,
+  "Administrative Procedures": BookMarked,
+  "Current Affairs": Globe,
+};
+
+const SUBJECT_DESC: Record<string, string> = {
+  "Public Service Rules": "Rules governing employment in the Federal Civil Service",
+  "Financial Regulations": "Financial management rules for the Federal Government",
+  "Civil Service Handbook": "Comprehensive handbook of civil service rules",
+  "Administrative Procedures": "Guide to administrative procedures in the public service",
+  "Current Affairs": "General knowledge and current affairs questions",
+};
+
+// Federal Civil Service exam type ID = 5, year = 2025
+const EXAM_TYPE_ID = 5;
+const YEAR = 2025;
+
+const DURATION_OPTIONS = [
+  { label: "30 min", value: 30 },
+  { label: "45 min", value: 45 },
+  { label: "60 min", value: 60 },
+  { label: "90 min", value: 90 },
+  { label: "120 min", value: 120 },
+];
+
+export default function Practice() {
   const [, setLocation] = useLocation();
   const { toast } = useToast();
-  
-  const [examTypeId, setExamTypeId] = useState<string>("");
-  const [subjectId, setSubjectId] = useState<string>("");
-  const [year, setYear] = useState<string>("");
-  const [duration, setDuration] = useState<string>("60");
-
-  const { data: examTypesData, isLoading: examTypesLoading } = useListExamTypes();
-  const { data: subjectsData, isLoading: subjectsLoading } = useListSubjects();
-  
-  const { data: yearsData, isLoading: yearsLoading } = useListAvailableYears(
-    { 
-      examTypeId: examTypeId ? parseInt(examTypeId) : undefined,
-      subjectId: subjectId ? parseInt(subjectId) : undefined 
-    },
-    {
-      query: {
-        enabled: !!examTypeId && !!subjectId,
-      }
-    }
-  );
-
+  const { data: subjectsData, isLoading } = useListSubjects();
   const startSession = useStartExamSession();
+  const [duration, setDuration] = useState(60);
 
-  const handleStart = () => {
-    if (!examTypeId || !subjectId || !year) {
-      toast({
-        title: "Missing fields",
-        description: "Please select exam type, subject, and year to continue.",
-        variant: "destructive",
-      });
-      return;
-    }
-
+  const handleStart = (subjectId: number) => {
     startSession.mutate(
+      { data: { examTypeId: EXAM_TYPE_ID, subjectId, year: YEAR, durationMinutes: duration } },
       {
-        data: {
-          examTypeId: parseInt(examTypeId),
-          subjectId: parseInt(subjectId),
-          year: parseInt(year),
-          durationMinutes: parseInt(duration),
-        }
-      },
-      {
-        onSuccess: (session) => {
-          setLocation(`/exam/${session.id}`);
-        },
-        onError: (error) => {
+        onSuccess: (session) => setLocation(`/exam/${session.id}`),
+        onError: (err: any) => {
           toast({
-            title: "Error",
-            description: error?.error || "Failed to start practice session. Try again.",
+            title: "Could not start session",
+            description: err?.error || "Please try again.",
             variant: "destructive",
           });
-        }
+        },
       }
     );
   };
 
-  const isFormComplete = !!examTypeId && !!subjectId && !!year;
+  // API returns a flat array; filter to Federal Civil Service subjects only
+  const allSubjects: Array<{ id: number; name: string }> = Array.isArray(subjectsData)
+    ? subjectsData
+    : (subjectsData as any)?.subjects ?? [];
+  const subjects = allSubjects.filter(s =>
+    Object.keys(SUBJECT_ICONS).some(k => s.name.includes(k.split(" ")[0]))
+  );
 
   return (
     <div className="max-w-3xl mx-auto py-8 animate-in fade-in slide-in-from-bottom-4 duration-500">
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold tracking-tight">Practice Setup</h1>
-        <p className="text-muted-foreground mt-1">Configure your practice session. Choose your subject and let's get to work.</p>
+      <div className="mb-6">
+        <h1 className="text-3xl font-bold tracking-tight">Choose a Subject</h1>
+        <p className="text-muted-foreground mt-1">Select a subject to start your practice session.</p>
       </div>
 
-      <Card className="shadow-sm border-muted">
-        <CardHeader className="bg-muted/30 border-b">
-          <CardTitle>Session Configuration</CardTitle>
-          <CardDescription>Select the exact paper you want to practice</CardDescription>
-        </CardHeader>
-        <CardContent className="space-y-8 pt-8">
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="space-y-3">
-              <Label className="flex items-center gap-2 text-sm font-semibold">
-                <Target className="h-4 w-4 text-primary" />
-                Exam Type
-              </Label>
-              <Select value={examTypeId} onValueChange={setExamTypeId}>
-                <SelectTrigger className="h-12 bg-background">
-                  <SelectValue placeholder="Select Exam (e.g. JAMB)" />
-                </SelectTrigger>
-                <SelectContent>
-                  {examTypesLoading ? (
-                    <div className="p-4 flex justify-center"><Loader2 className="h-4 w-4 animate-spin text-muted-foreground" /></div>
-                  ) : examTypesData?.examTypes?.map(type => (
-                    <SelectItem key={type.id} value={type.id.toString()}>{type.name}</SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-            </div>
+      {/* Duration selector */}
+      <div className="mb-8">
+        <p className="text-sm font-medium text-foreground mb-2">Session duration</p>
+        <div className="flex flex-wrap gap-2">
+          {DURATION_OPTIONS.map(opt => (
+            <button
+              key={opt.value}
+              onClick={() => setDuration(opt.value)}
+              className={`px-4 py-1.5 rounded-full text-sm font-medium border transition-colors ${
+                duration === opt.value
+                  ? "bg-primary text-primary-foreground border-primary"
+                  : "bg-background text-muted-foreground border-border hover:border-primary/60 hover:text-foreground"
+              }`}
+            >
+              {opt.label}
+            </button>
+          ))}
+        </div>
+      </div>
 
-            <div className="space-y-3">
-              <Label className="flex items-center gap-2 text-sm font-semibold">
-                <BookOpen className="h-4 w-4 text-primary" />
-                Subject
-              </Label>
-              <Select value={subjectId} onValueChange={setSubjectId} disabled={!examTypeId}>
-                <SelectTrigger className="h-12 bg-background">
-                  <SelectValue placeholder="Select Subject" />
-                </SelectTrigger>
-                <SelectContent>
-                  {subjectsLoading ? (
-                    <div className="p-4 flex justify-center"><Loader2 className="h-4 w-4 animate-spin text-muted-foreground" /></div>
-                  ) : subjectsData?.subjects?.map(subject => (
-                    <SelectItem key={subject.id} value={subject.id.toString()}>{subject.name}</SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-            </div>
+      {isLoading ? (
+        <div className="flex items-center justify-center py-20">
+          <Loader2 className="h-8 w-8 animate-spin text-primary" />
+        </div>
+      ) : subjects.length === 0 ? (
+        <div className="text-center py-16 text-muted-foreground border border-dashed rounded-xl">
+          No subjects found. Please contact an administrator.
+        </div>
+      ) : (
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {subjects.map((subject) => {
+            const Icon = SUBJECT_ICONS[subject.name] || FileText;
+            const desc = SUBJECT_DESC[subject.name] || "Practice questions for this subject";
+            const isPending = startSession.isPending;
 
-            <div className="space-y-3">
-              <Label className="flex items-center gap-2 text-sm font-semibold">
-                <Calendar className="h-4 w-4 text-primary" />
-                Year
-              </Label>
-              <Select value={year} onValueChange={setYear} disabled={!examTypeId || !subjectId || yearsLoading}>
-                <SelectTrigger className="h-12 bg-background">
-                  <SelectValue placeholder="Select Year" />
-                </SelectTrigger>
-                <SelectContent>
-                  {yearsLoading ? (
-                    <div className="p-4 flex justify-center"><Loader2 className="h-4 w-4 animate-spin text-muted-foreground" /></div>
-                  ) : !yearsData?.years?.length ? (
-                    <div className="p-4 text-center text-sm text-muted-foreground">No years available for this combination</div>
-                  ) : (
-                    yearsData.years.map(y => (
-                      <SelectItem key={y} value={y.toString()}>{y}</SelectItem>
-                    ))
+            return (
+              <Card
+                key={subject.id}
+                className="group cursor-pointer border-muted hover:border-primary/60 hover:shadow-md transition-all duration-200 relative overflow-hidden"
+                onClick={() => !isPending && handleStart(subject.id)}
+              >
+                <CardContent className="p-6">
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="bg-primary/10 text-primary p-2.5 rounded-lg group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
+                      <Icon className="h-5 w-5" />
+                    </div>
+                    <ArrowRight className="h-4 w-4 text-muted-foreground/50 group-hover:text-primary group-hover:translate-x-1 transition-all" />
+                  </div>
+                  <h3 className="font-semibold text-base mb-1">{subject.name}</h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">{desc}</p>
+                  {startSession.isPending && (
+                    <div className="absolute inset-0 bg-background/60 flex items-center justify-center rounded-xl">
+                      <Loader2 className="h-5 w-5 animate-spin text-primary" />
+                    </div>
                   )}
-                </SelectContent>
-              </Select>
-            </div>
-
-            <div className="space-y-3">
-              <Label className="flex items-center gap-2 text-sm font-semibold">
-                <Calendar className="h-4 w-4 text-primary" />
-                Duration (minutes)
-              </Label>
-              <Select value={duration} onValueChange={setDuration}>
-                <SelectTrigger className="h-12 bg-background">
-                  <SelectValue placeholder="Duration" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="30">30 Minutes (Quick)</SelectItem>
-                  <SelectItem value="60">60 Minutes (Standard)</SelectItem>
-                  <SelectItem value="90">90 Minutes (Extended)</SelectItem>
-                  <SelectItem value="120">120 Minutes (Full Length)</SelectItem>
-                </SelectContent>
-              </Select>
-            </div>
-          </div>
-
-        </CardContent>
-        <CardFooter className="bg-muted/10 border-t p-6">
-          <Button 
-            size="lg" 
-            className="w-full h-14 text-lg shadow-md transition-all active:scale-[0.98]" 
-            disabled={!isFormComplete || startSession.isPending}
-            onClick={handleStart}
-          >
-            {startSession.isPending ? (
-              <><Loader2 className="mr-2 h-5 w-5 animate-spin" /> Preparing Exam...</>
-            ) : (
-              <><PlayCircle className="mr-2 h-6 w-6" /> Start Practice Session</>
-            )}
-          </Button>
-        </CardFooter>
-      </Card>
+                </CardContent>
+              </Card>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 }

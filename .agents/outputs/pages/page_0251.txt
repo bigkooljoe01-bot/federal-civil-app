@@ -1,0 +1,37 @@
+(9) New Track Publication
+Explanation: Financial Regulation 1311 specifies that the transfer will be effected by means of
+a journal voucher.
+13. What is the process for deposits held in foreign currency?
+A. They must be converted to local currency immediately.
+B. They should be treated in the same manner as deposits in local currency.
+C. They are not subject to these regulations.
+D. They are the responsibility of the Central Bank of Nigeria
+Correct Answer: B
+Explanation: While not explicitly stated, the general principle of the financial regulations is that
+all government funds are subject to proper accounting procedures, regardless of the currency.
+The regulations for deposits apply universally.
+14. What must be included in the Deposit Register for each transaction?
+A. Only the amount of the deposit.
+B. The name of the depositor, particulars of the deposit, and withdrawal.
+C. The date of the transaction and the signature of the officer.
+D. The reason for the deposit and the expected withdrawal date.
+Correct Answer: B
+Explanation: Financial Regulation 1304 requires the register to contain the name of the
+depositor and particulars of all deposits and withdrawals made.
+15. If a deposit is transferred to revenue, can the original depositor claim the money later?
+A. No, the claim is permanently extinguished.
+B. Yes, but the claim must be made within one year.
+C. The claim will be treated as a claim against public funds.
+D. The money can be re-transferred from revenue back to the deposit account.
+Correct Answer: C
+Explanation: Financial Regulation 1311 states that if the deposit is transferred to revenue and a
+valid claim is later made, it will be treated as a claim against public funds.
+Part 2: Financial Regulations: Advances.
+16. What does Financial Regulation 1401 primarily address?
+A. Non-personal advances
+B. Personal advances
+C. Recovery of advances
+D. Salary advance on first appointment
+Correct Answer: B
+Explanation: Financial Regulation 1401 explicitly deals with "Personal advances”
+251

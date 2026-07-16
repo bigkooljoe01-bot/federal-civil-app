@@ -1,0 +1,3554 @@
+[
+  {
+    "num": 55,
+    "text": "What must a departmental vote book clearly show in respect of each sub-head?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The amount sanctioned in the Estimates."
+      },
+      {
+        "letter": "B",
+        "text": "Any additional provision by supplementary warrants."
+      },
+      {
+        "letter": "C",
+        "text": "Any reduction of the provision by virement."
+      },
+      {
+        "letter": "D",
+        "text": "All of the above."
+      }
+    ],
+    "correct_letter": "D",
+    "explanation": "Financial Regulation 402(i)(a) lists all these as details to be shown in the vote book.",
+    "page_idx": 184
+  },
+  {
+    "num": 56,
+    "text": "How should any reduction of provision in a vote book by virement be indicated?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "In black ink."
+      },
+      {
+        "letter": "B",
+        "text": "In red ink."
+      },
+      {
+        "letter": "C",
+        "text": "With a special stamp."
+      },
+      {
+        "letter": "D",
+        "text": "By an asterisk."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 402(i)(a)(iii) specifies: “Any such reduction should be shown in red ink.\"",
+    "page_idx": 184
+  },
+  {
+    "num": 57,
+    "text": "What should be entered in the vote book in addition to expenditure incurred?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Only liabilities."
+      },
+      {
+        "letter": "B",
+        "text": "Only commitments."
+      },
+      {
+        "letter": "C",
+        "text": "Both liabilities and commitments as soon as they are known or incurred."
+      },
+      {
+        "letter": "D",
+        "text": "Only payments made."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 403 states: \"Similarly all liabilities and commitments will be entered as-soon as they are known or incurred.”",
+    "page_idx": 184
+  },
+  {
+    "num": 58,
+    "text": "Who may delegate the day-to-day control of expenditure to a subordinate officer?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Minister of Finance."
+      },
+      {
+        "letter": "B",
+        "text": "The Accountant-General."
+      },
+      {
+        "letter": "C",
+        "text": "An Accounting Officer."
+      },
+      {
+        "letter": "D",
+        "text": "The Head of Finance and Accounts."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 404 states: \"An Accounting Officer, at his discretion, may delegate the day-to-day control of expenditure to a subordinate officer...\" 184",
+    "page_idx": 184
+  },
+  {
+    "num": 64,
+    "text": "What stamp must be affixed to all vouchers, indents, local purchase orders, job orders, and",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "\"APPROVED BY ACCOUNTANT-GENERAL\"."
+      },
+      {
+        "letter": "B",
+        "text": "\"ENTERED IN VOTE BOOK™."
+      },
+      {
+        "letter": "C",
+        "text": "\"PAID IN FULL\"."
+      },
+      {
+        "letter": "D",
+        "text": "\"AUDITED AND PASSED\"."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 407 states: \"...all vouchers, indents, local purchase orders, job orders, agreements shall be stamped ‘ENTERED IN VOTE BOOK' and initialed by the officer responsible for maintaining the vote book.\"",
+    "page_idx": 186
+  },
+  {
+    "num": 65,
+    "text": "Who is responsible for ensuring that the requisite vote book entries are made before",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Only the Accountant-General."
+      },
+      {
+        "letter": "B",
+        "text": "Officers empowered to incur expenditure."
+      },
+      {
+        "letter": "C",
+        "text": "The Head of Finance and Accounts."
+      },
+      {
+        "letter": "D",
+        "text": "The Sub-Accounting Officer."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 407 states: \"Officers empowered to incur expenditure must ensure by adding their initials against the. relevant entry that the requisite vote book entries are made before the payments are authorised by their signatures to the payment vouchers.”",
+    "page_idx": 186
+  },
+  {
+    "num": 66,
+    "text": "How often does the Accountant-General furnish Accounting Officers with schedules of",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Annually."
+      },
+      {
+        "letter": "B",
+        "text": "Quarterly."
+      },
+      {
+        "letter": "C",
+        "text": "As soon as possible after the end of each month."
+      },
+      {
+        "letter": "D",
+        "text": "Upon request."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": null,
+    "page_idx": 186
+  },
+  {
+    "num": 60,
+    "text": "What document is issued by an Accounting Officer to authorize other officers to incur",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "A Virement Warrant."
+      },
+      {
+        "letter": "B",
+        "text": "An Authority to Incur Expenditure (A.LE)."
+      },
+      {
+        "letter": "C",
+        "text": "A Treasury Circular."
+      },
+      {
+        "letter": "D",
+        "text": "A General Warrant."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 405 states: \"...he shall do so by issuing Authority to Incur Expenditure (A.LE)...\"",
+    "page_idx": 185
+  },
+  {
+    "num": 61,
+    "text": "What must accompany an Authority to Incur Expenditure (A.LE) issued by an Accounting",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "A copy of the Annual Estimates."
+      },
+      {
+        "letter": "B",
+        "text": "Appropriate cash backing."
+      },
+      {
+        "letter": "C",
+        "text": "Alist of all previous expenditures."
+      },
+      {
+        "letter": "D",
+        "text": "A letter of approval from the Minister of Finance."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 405 states: \"...supported by appropriate cash backing...\"",
+    "page_idx": 185
+  },
+  {
+    "num": 62,
+    "text": "When an A LE. is issued to another ministry, what is the duty of the responsible officer in the",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "To immediately spend all the funds."
+      },
+      {
+        "letter": "B",
+        "text": "To maintain a Vote Book and forward monthly returns of expenditure to the issuing Ministry."
+      },
+      {
+        "letter": "C",
+        "text": "To return the ALLE. to the issuing ministry."
+      },
+      {
+        "letter": "D",
+        "text": "To report directly to the Accountant-General."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 406 states: “it will be the duty of the responsible officer in the receiving Ministry or Department to maintain a Vote Book and forward a monthly returns of expenditure to the issuing Ministry/ Department...\" 185",
+    "page_idx": 185
+  },
+  {
+    "num": 67,
+    "text": "If a serious irregularity in a voucher is established or suspected, what is the first action the",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Report to the Minister of Finance."
+      },
+      {
+        "letter": "B",
+        "text": "Immediately investigate and report the circumstances."
+      },
+      {
+        "letter": "C",
+        "text": "Disallow the payment immediately."
+      },
+      {
+        "letter": "D",
+        "text": "Transfer the funds to a suspense account."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 409 states: \"Where a serious irregularity in a voucher is established or suspected the officer controlling the vote shall immediately investigate and report the circumstances...\"",
+    "page_idx": 187
+  },
+  {
+    "num": 68,
+    "text": "In the event of an unauthorized payment due to an incorrect certificate or entry on a",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Only the Sub-Accounting Officer."
+      },
+      {
+        "letter": "B",
+        "text": "The certifying officer or the Sub-Accounting Officer."
+      },
+      {
+        "letter": "C",
+        "text": "The Accounting Officer."
+      },
+      {
+        "letter": "D",
+        "text": "The Auditor-General."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 409 states: \"the certifying officer or the sub-accounting officer as provided under Regulation 420 shall be held responsible and surcharged for the amount involved.”",
+    "page_idx": 187
+  },
+  {
+    "num": 69,
+    "text": "The signature of the officer controlling a vote on a voucher certifies the accuracy of what?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Only the amount."
+      },
+      {
+        "letter": "B",
+        "text": "Only the payee's name."
+      },
+      {
+        "letter": "C",
+        "text": "Every detail on the voucher."
+      },
+      {
+        "letter": "D",
+        "text": "Only the contract reference."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 410 states: “The signature of the officer controlling a vote, or an officer signing for him, certifies to the accuracy of every detail on the voucher.”",
+    "page_idx": 187
+  },
+  {
+    "num": 70,
+    "text": "What is the minimum rank for officers authorized to sign payment vouchers?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Senior Executive Officer (Accounts) or Accountant I."
+      },
+      {
+        "letter": "B",
+        "text": "Assistant Executive Officer (Accounts)."
+      },
+      {
+        "letter": "C",
+        "text": "Head of Finance and Accounts."
+      },
+      {
+        "letter": "D",
+        "text": "Accounting Officer."
+      }
+    ],
+    "correct_letter": "A",
+    "explanation": null,
+    "page_idx": 187
+  },
+  {
+    "num": 51,
+    "text": "Who is primarily responsible for making disbursements of public funds?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Only the Accountant-General"
+      },
+      {
+        "letter": "B",
+        "text": "The Accountant-General and Accounting Officers."
+      },
+      {
+        "letter": "C",
+        "text": "Only Accounting Officers."
+      },
+      {
+        "letter": "D",
+        "text": "The Minister of Finance."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 401(i) states: \"All disbursements of public funds shall be made by the Accountant General on the authority of the appropriate Warrant issued to him and also by Accounting Officers entrusted with the expenditure of public fund falling within the votes of charge of their ministries or extra ministerial offices and other arms. of government.”",
+    "page_idx": 183
+  },
+  {
+    "num": 52,
+    "text": "Who retains the ultimate responsibility for the control of votes to the Federal Executive",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Minister of Finance."
+      },
+      {
+        "letter": "B",
+        "text": "The Accountant-General."
+      },
+      {
+        "letter": "C",
+        "text": "Accounting Officers."
+      },
+      {
+        "letter": "D",
+        "text": "Officers controlling votes."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 401(ii) states: “the ultimate responsibility to the Federal Executive Council for the control of votes rests with the Account log Officers at all times.\"",
+    "page_idx": 183
+  },
+  {
+    "num": 53,
+    "text": "What is the personal consequence for any officer making, allowing, or directing any",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "They will receive a warning."
+      },
+      {
+        "letter": "B",
+        "text": "They will be personally responsible for the amount involved"
+      },
+      {
+        "letter": "C",
+        "text": "Their subordinates will be held responsible."
+      },
+      {
+        "letter": "D",
+        "text": "The expenditure will be absorbed by the Contingencies Fund"
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 401(ii) states: \"any officer making, allowing or directing any disbursement without proper authority shall be personally responsible for the amount involved.\"",
+    "page_idx": 183
+  },
+  {
+    "num": 83,
+    "text": "Before making any payment, what must a Sub-Accounting Officer satisfy himself about the",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "That it is authorized by Warrant and correctly classified."
+      },
+      {
+        "letter": "B",
+        "text": "That the information furnished is correct and certificates completed."
+      },
+      {
+        "letter": "C",
+        "text": "That all deductions have been duly made."
+      },
+      {
+        "letter": "D",
+        "text": "All of the above."
+      }
+    ],
+    "correct_letter": "D",
+    "explanation": "Financial Regulation 420 lists all these as conditions a Sub-Accounting Officer must satisfy himself about",
+    "page_idx": 191
+  },
+  {
+    "num": 84,
+    "text": "Who can effect an alteration to the classification of a voucher?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Any checking officer."
+      },
+      {
+        "letter": "B",
+        "text": "Any Sub-Accounting Officer."
+      },
+      {
+        "letter": "C",
+        "text": "The officer controlling expenditure."
+      },
+      {
+        "letter": "D",
+        "text": "The Head of Finance and Accounts."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 421 states: \"An alteration to the classification of a voucher shall only be effected by the officer controlling expenditure who will amend his Vote Book accordingly.\"",
+    "page_idx": 191
+  },
+  {
+    "num": 85,
+    "text": "What is the responsibility of officers controlling votes regarding payment for services",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "To defer payments to the next financial year for budgetary reasons."
+      },
+      {
+        "letter": "B",
+        "text": "To ensure payments are settled within the financial year in which they were rendered."
+      },
+      {
+        "letter": "C",
+        "text": "To only pay for services after all claims have been perfectly validated."
+      },
+      {
+        "letter": "D",
+        "text": "To transfer all outstanding claims to a suspense account."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 412(i) states: \"Officers controlling votes are responsible for\" ensuring that, as far as possible, payment for services rendered are settled within the financial year in which they were rendered.”",
+    "page_idx": 191
+  },
+  {
+    "num": 86,
+    "text": "What must be entered into the Vote Book as liabilities?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Only signed contracts"
+      },
+      {
+        "letter": "B",
+        "text": "All instruments of commitments, indents, LPOs, job Orders, and signed contracts."
+      },
+      {
+        "letter": "C",
+        "text": "Only payments already made."
+      },
+      {
+        "letter": "D",
+        "text": "Only anticipated expenditures"
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": null,
+    "page_idx": 191
+  },
+  {
+    "num": 71,
+    "text": "What must be attached to a voucher where a contract involves supplies of goods or work",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "A certificate that payments are in accordance with contract terms."
+      },
+      {
+        "letter": "B",
+        "text": "The original contract document."
+      },
+      {
+        "letter": "C",
+        "text": "A bank guarantee."
+      },
+      {
+        "letter": "D",
+        "text": "A copy of the budget allocation."
+      }
+    ],
+    "correct_letter": "A",
+    "explanation": "Financial Regulation 412 states: \"there will be attached to the voucher a certificate that the payments are in accordance with terms of the contract agreement...\"",
+    "page_idx": 188
+  },
+  {
+    "num": 72,
+    "text": "If a deduction is made from a contract payment for a penalty or fine, what happens to the",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Itis kept by the ministry."
+      },
+      {
+        "letter": "B",
+        "text": "Itis credited to the appropriate revenue head."
+      },
+      {
+        "letter": "C",
+        "text": "Itis transferred to a suspense account."
+      },
+      {
+        "letter": "D",
+        "text": "Itis returned to the contractor."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 412 states: “while the deduction shall be credited to the appropriate revenue head.”",
+    "page_idx": 188
+  },
+  {
+    "num": 73,
+    "text": "When does the authority for recurrent expenditure conveyed by warrants lapse?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "At the end of the calendar year."
+      },
+      {
+        "letter": "B",
+        "text": "At the end of the financial year to which it relates."
+      },
+      {
+        "letter": "C",
+        "text": "After three months."
+      },
+      {
+        "letter": "D",
+        "text": "When the funds are fully expended."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 413(i) states: \"The authority for recurrent expenditure conveyed by any of the warrants contained in Chapter 3 lapses at the end of the financial year to which it relates.”",
+    "page_idx": 188
+  },
+  {
+    "num": 74,
+    "text": "For capital expenditure, what happens to any amount conveyed by warrants that has not",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Itis carried forward to the next year."
+      },
+      {
+        "letter": "B",
+        "text": "It automatically lapses."
+      },
+      {
+        "letter": "C",
+        "text": "Itis transferred to the Development Fund."
+      },
+      {
+        "letter": "D",
+        "text": "It requires re-appropriation by the National Assembly."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": null,
+    "page_idx": 188
+  },
+  {
+    "num": 75,
+    "text": "What happens to any balance in the Central Capital Account (CCA) at the end of the",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Itis carried forward indefinitely."
+      },
+      {
+        "letter": "B",
+        "text": "It lapses by March 31st of the following year."
+      },
+      {
+        "letter": "C",
+        "text": "Itis transferred back to the Consolidated Revenue Fund."
+      },
+      {
+        "letter": "D",
+        "text": "It is subject to a new appropriation."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 413(ii)(b) states: \"any balance in the CCA at the end of the Financial year which has not been cash-backed into the Capital Account of the spending Ministry/Agency shall lapse by 31st March of the following year.\"",
+    "page_idx": 189
+  },
+  {
+    "num": 76,
+    "text": "If an amount is cash-backed into the account of a spending Ministry/Agency for capital",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Yes, at the end of the financial year."
+      },
+      {
+        "letter": "B",
+        "text": "Yes, by March 31st of the following year."
+      },
+      {
+        "letter": "C",
+        "text": "No, it shall be utilized for the purpose stated in the warrant."
+      },
+      {
+        "letter": "D",
+        "text": "Only if the project is completed."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 413(ii)(c) states: \"Any amount cash-backed into the Account of the spending Ministry/ Agency shall not lapse but shall be utilised for the purpose- stated in the warrant.”",
+    "page_idx": 189
+  },
+  {
+    "num": 77,
+    "text": "What is the rule regarding anticipated savings for payments?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "They can be utilized at any time."
+      },
+      {
+        "letter": "B",
+        "text": "They shall not be utilized for payments before they are due."
+      },
+      {
+        "letter": "C",
+        "text": "They can be transferred to a deposit account."
+      },
+      {
+        "letter": "D",
+        "text": "They are automatically carried forward."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 414 states: \"Under no circumstances shall anticipated savings be utilised for' payments before they are due.”",
+    "page_idx": 189
+  },
+  {
+    "num": 79,
+    "text": "How should expenditure be classified?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "According to the discretion of the Accounting Officer."
+      },
+      {
+        "letter": "B",
+        "text": "Strictly in accordance with the Estimates."
+      },
+      {
+        "letter": "C",
+        "text": "Based on the amount of the expenditure."
+      },
+      {
+        "letter": "D",
+        "text": "By the date of payment."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 417 states: \"Expenditure shall strictly be classified in accordance with the Estimates...\"",
+    "page_idx": 190
+  },
+  {
+    "num": 80,
+    "text": "What happens if expenditure is incorrectly charged to a vote?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "It will be adjusted in the next financial year."
+      },
+      {
+        "letter": "B",
+        "text": "It will be disallowed."
+      },
+      {
+        "letter": "C",
+        "text": "It will be transferred to a general fund."
+      },
+      {
+        "letter": "D",
+        "text": "It will be reported to the Minister of Finance for approval."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 417 states: \"Expenditure incorrectly charged to a vote shall be disallowed.”",
+    "page_idx": 190
+  },
+  {
+    "num": 81,
+    "text": "How should payments made on behalf of self-accounting units by Accounting Officers of",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Directly to the expenditure sub-head of the Estimates."
+      },
+      {
+        "letter": "B",
+        "text": "To the appropriate Cash Transfer Account."
+      },
+      {
+        "letter": "C",
+        "text": "To a suspense account."
+      },
+      {
+        "letter": "D",
+        "text": "To the Consolidated Revenue Fund."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 418 states: \"shall be classified to the appropriate’ Cash Transfer Account and not-direct to the expenditure sub-head of the Estimates.\"",
+    "page_idx": 190
+  },
+  {
+    "num": 82,
+    "text": "Who is solely liable for unauthorized expenditure in excess of the sum allocated?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Accountant-General."
+      },
+      {
+        "letter": "B",
+        "text": "The Minister of Finance."
+      },
+      {
+        "letter": "C",
+        "text": "Officers controlling votes."
+      },
+      {
+        "letter": "D",
+        "text": "The Head of Finance and Accounts."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": null,
+    "page_idx": 190
+  },
+  {
+    "num": 99,
+    "text": "What is the role of the Sub-Accounting Officer regarding the classification of a voucher?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "They can change it arbitrarily."
+      },
+      {
+        "letter": "B",
+        "text": "They cannot change it arbitrarily; only the officer controlling expenditure can."
+      },
+      {
+        "letter": "C",
+        "text": "They must approve all changes."
+      },
+      {
+        "letter": "D",
+        "text": "They are not involved in classification"
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 421 states: “The classification of a voucher shall not be changed arbitrarily by a checking officer or Sub-Accounting Officer.”",
+    "page_idx": 195
+  },
+  {
+    "num": 100,
+    "text": "Question: What is the primary objective of “Expenditure Control* as discussed in Chapter",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "To ensure all allocated funds are spent."
+      },
+      {
+        "letter": "B",
+        "text": "To prevent fraud and waste in public spending."
+      },
+      {
+        "letter": "C",
+        "text": "To accelerate payments to contractors."
+      },
+      {
+        "letter": "D",
+        "text": "To simplify accounting procedures."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "The entire chapter emphasizes mechanisms (vote books, warrants, responsibilities) to ensure proper and authorized use of funds, directly aiming to prevent fraud, waste, and unauthorized expenditure. 195",
+    "page_idx": 195
+  },
+  {
+    "num": 87,
+    "text": "What happens if an officer neglects to press for claims from private parties, causing",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The private party is solely responsible."
+      },
+      {
+        "letter": "B",
+        "text": "The officer who neglected to press for claims shall be held responsible."
+      },
+      {
+        "letter": "C",
+        "text": "The Accountant-General wil intervene."
+      },
+      {
+        "letter": "D",
+        "text": "The claim will be written off."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 412(i) states: \"Neglect to do this will not prejudice the private party but the Officer who has neglected to press for claims shall be held responsible.”",
+    "page_idx": 192
+  },
+  {
+    "num": 88,
+    "text": "What is the purpose of stamping vouchers \"ENTERED IN VOTE BOOK\"?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "To indicate approval for payment."
+      },
+      {
+        "letter": "B",
+        "text": "To confirm that the expenditure has been recorded as a commitment or payment in the vote book."
+      },
+      {
+        "letter": "C",
+        "text": "To show that the voucher has been audited."
+      },
+      {
+        "letter": "D",
+        "text": "To mark it for archiving."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 407 implies this purpose, ensuring that financial commitments and payments are properly tracked against the allocated budget.",
+    "page_idx": 192
+  },
+  {
+    "num": 89,
+    "text": "If a payment is made on account for a contract, what is the money claimed limited to?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The full contract sum."
+      },
+      {
+        "letter": "B",
+        "text": "The cost of the work certified to have been performed."
+      },
+      {
+        "letter": "C",
+        "text": "An arbitrary percentage of the contract."
+      },
+      {
+        "letter": "D",
+        "text": "The amount available in the vote."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 412 states: “In the case o. payment on account, no money will be claimed other than the cost of the work certified to have been performed.”",
+    "page_idx": 192
+  },
+  {
+    "num": 90,
+    "text": "What is the implication of an unexpended portion of any sub-head not being drawn for the",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "It can be carried to a deposit account."
+      },
+      {
+        "letter": "B",
+        "text": "It can be placed in a suspense account."
+      },
+      {
+        "letter": "C",
+        "text": "It should not be drawn for setting in reserve or carried to a deposit/suspense account."
+      },
+      {
+        "letter": "D",
+        "text": "It automatically lapses."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": null,
+    "page_idx": 192
+  },
+  {
+    "num": 91,
+    "text": "What is the rule regarding drawing unallocated stores for use?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "They can be drawn at any time."
+      },
+      {
+        "letter": "B",
+        "text": "They should not be drawn before they are required to utilize provision in the Estimates which would otherwise lapse."
+      },
+      {
+        "letter": "C",
+        "text": "They must be drawn by year-end."
+      },
+      {
+        "letter": "D",
+        "text": "They can be drawn to meet any unforeseen need."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 414 states: \"Un allocated stores may not be drawn for use before they are required in order to utilise provision in the Estimates which would otherwise lapse at the end of the financial year.\"",
+    "page_idx": 193
+  },
+  {
+    "num": 92,
+    "text": "Who is responsible for providing the Internal checking section, intemal audit unit, and",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Accountant-General."
+      },
+      {
+        "letter": "B",
+        "text": "The Minister of Finance."
+      },
+      {
+        "letter": "C",
+        "text": "The Accounting Officer."
+      },
+      {
+        "letter": "D",
+        "text": "The Head of Finance and Accounts."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 411 states: \"The Accounting Officer shall furnish the Internal checking section, intemal audit unit and the Paying Officer with the specimen signatures along with the list of relevant votes chargeable.”",
+    "page_idx": 193
+  },
+  {
+    "num": 93,
+    "text": "If a discrepancy is found when examining schedules of payments and adjustments from the",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "It should be ignored if minor."
+      },
+      {
+        "letter": "B",
+        "text": "It should be immediately brought to the notice of the Accountant-General."
+      },
+      {
+        "letter": "C",
+        "text": "It should be corrected by the Accounting Officer."
+      },
+      {
+        "letter": "D",
+        "text": "It should be reported to the Auditor-General only."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 408 states: \"Any discrepancy which such examinations may disclose should immediately be brought to the notice of the Accountant-General.\"",
+    "page_idx": 193
+  },
+  {
+    "num": 95,
+    "text": "What is the definition of \"Expenditure Classification\"?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Grouping expenses by department."
+      },
+      {
+        "letter": "B",
+        "text": "Categorizing expenses according to the Estimates."
+      },
+      {
+        "letter": "C",
+        "text": "Listing all payments made."
+      },
+      {
+        "letter": "D",
+        "text": "Tracking cash flows."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 417 implies that expenditure classification is the act of categorizing expenses according to the approved Estimates.",
+    "page_idx": 194
+  },
+  {
+    "num": 96,
+    "text": "What is the primary purpose of the Departmental Vote Book?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "To record all incoming revenue."
+      },
+      {
+        "letter": "B",
+        "text": "To monitor and control expenditure against budget allocations."
+      },
+      {
+        "letter": "C",
+        "text": "To track staff salaries."
+      },
+      {
+        "letter": "D",
+        "text": "To store financial reports."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 402(i) clearly outlines the purpose of the vote book as monitoring expenditure against the Estimates.",
+    "page_idx": 194
+  },
+  {
+    "num": 97,
+    "text": "What is the consequence if an officer controlling a vote incurs expenditure without proper",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The expenditure will be absorbed by the Ministry."
+      },
+      {
+        "letter": "B",
+        "text": "The officer will be held pecuniarily responsible for his actions."
+      },
+      {
+        "letter": "C",
+        "text": "The Accountant-General will rectify the error."
+      },
+      {
+        "letter": "D",
+        "text": "The Minister of Finance will issue a new warrant."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 301 (which is referenced in 401) states: \"Any officer controls a vote, or part thereof, who incurs expenditure without such authority does so on his sole responsibility and will consequently be held peculiarly responsible for his actions.”",
+    "page_idx": 194
+  },
+  {
+    "num": 98,
+    "text": "When should liabilities and commitments be entered into the vote book?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "At the end of the financial year."
+      },
+      {
+        "letter": "B",
+        "text": "As soon as they are known or incurred."
+      },
+      {
+        "letter": "C",
+        "text": "Only when actual payment is made."
+      },
+      {
+        "letter": "D",
+        "text": "Quarterly."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": null,
+    "page_idx": 194
+  },
+  {
+    "num": 1,
+    "text": "Who has full authority to direct on all matters relating to the finance and accounting affairs of",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Accountant-General."
+      },
+      {
+        "letter": "B",
+        "text": "The Auditor-General."
+      },
+      {
+        "letter": "C",
+        "text": "The Minister of Finance."
+      },
+      {
+        "letter": "D",
+        "text": "The Head of Civil Service."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 501 states: \"By the provisions of Sections 3 and 4 of the Finance (Control and Management) Act Cap 144 Laws of the Federation, 1990, the Minister of Finance shall have full authority to direct on all matters relating to the Finance and accounting affairs of the federation which are not by law assigned to any: other Minister.\"",
+    "page_idx": 196
+  },
+  {
+    "num": 2,
+    "text": "What is the primary purpose of the Financial Regulations issued by the Minister of Finance?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "To guide public officers on procurement only."
+      },
+      {
+        "letter": "B",
+        "text": "To guide public officers on the receipts and disbursements of Public Funds, and the management of public assets."
+      },
+      {
+        "letter": "C",
+        "text": "To dictate the national budget."
+      },
+      {
+        "letter": "D",
+        "text": "To set tax policies"
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 501 states: \"Specifically, the Minister of Finance shall from time to time direct the issuance of the Financial Regulations to guide all public officers on the receipts and disbursements of Public Funds, as well as the management of public assets.\"",
+    "page_idx": 196
+  },
+  {
+    "num": 3,
+    "text": "Who is responsible for issuing Treasury Circulars and Accounting Manuals to guide",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Minister of Finance."
+      },
+      {
+        "letter": "B",
+        "text": "The Auditor-General."
+      },
+      {
+        "letter": "C",
+        "text": "The Accountant-General."
+      },
+      {
+        "letter": "D",
+        "text": "The Head of Finance and Accounts."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 502 states: \"Pursuant to FR 501, the Accountant-General shall issue from time to time Treasury Circulars and Accounting Manual to guide Accounting Officers and other employees of each ministries/extra- ministerial offices and other arms of government 01) all matters relating to the provisions of the Financial Regulations.”",
+    "page_idx": 196
+  },
+  {
+    "num": 5,
+    "text": "What documents are federal ministries and other arms of government required to use for their",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Only the Annual Estimates."
+      },
+      {
+        "letter": "B",
+        "text": "The Financial Regulations, Treasury Accounting Manual, and Treasury Circulars issued by the Office of the Accountant General."
+      },
+      {
+        "letter": "C",
+        "text": "Internal audit reports only."
+      },
+      {
+        "letter": "D",
+        "text": "Specific departmental guidelines only."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 503 states: \"For this purpose, federal ministries/extra ministerial offices and other arms of government shall use the Financial Regulations, Treasury Accounting Manual and Treasury Circulars issued by the Office of the Accountant General in accounting for their daily financial transactions.”",
+    "page_idx": 197
+  },
+  {
+    "num": 6,
+    "text": "Who must approve any material variation of an existing accounting procedure or a proposed",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Minister of Finance only."
+      },
+      {
+        "letter": "B",
+        "text": "The Accounting Officer only."
+      },
+      {
+        "letter": "C",
+        "text": "The Accountant-General after consultation with the Auditor-General."
+      },
+      {
+        "letter": "D",
+        "text": "The Head of Finance and Accounts."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 504 states: \"Any material variation of an existing accounting procedure, or a proposed accounting procedure to be introduced into a new office, must be approved by the Accountant-General after consultation with the Auditor-General.\"",
+    "page_idx": 197
+  },
+  {
+    "num": 7,
+    "text": "Who must approve the purchase of accounting equipment or machines for a variation of an",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Head of Finance and Accounts."
+      },
+      {
+        "letter": "B",
+        "text": "The Accounting Officer."
+      },
+      {
+        "letter": "C",
+        "text": "The Minister of Finance."
+      },
+      {
+        "letter": "D",
+        "text": "The Accountant-General."
+      }
+    ],
+    "correct_letter": "D",
+    "explanation": null,
+    "page_idx": 197
+  },
+  {
+    "num": 8,
+    "text": "What document must be submitted to the Accountant-General when applying for a variation",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "A budget proposal."
+      },
+      {
+        "letter": "B",
+        "text": "A detailed flow chart."
+      },
+      {
+        "letter": "C",
+        "text": "An audit report."
+      },
+      {
+        "letter": "D",
+        "text": "A list of personnel."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 506 states: \"A detailed flow chart shall be submitted to the Accountant General when application is being made for a variation of an existing procedure or introduction of a procedure to a new office.”",
+    "page_idx": 198
+  },
+  {
+    "num": 9,
+    "text": "To whom should the approved Accounting Code, Internal Audit Guide, and Treasury Circulars",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Only to the Accounting Officer."
+      },
+      {
+        "letter": "B",
+        "text": "Only to the Head of Finance and Accounts."
+      },
+      {
+        "letter": "C",
+        "text": "To all officers within the ministry, extra-ministerial office and other arms of government for their guidance and compliance."
+      },
+      {
+        "letter": "D",
+        "text": "Only to the internal audit unit"
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 507 states: \"The approved Accounting Code and Internal Audit Guide of ministries/extra-ministerial offices and other arms of government or self accounting unit as well as Treasury circulars issued by the Accountant-General shall be circulated to all officers within the ministry, extra-ministerial office and other arms of government for their guidance and compliance.”",
+    "page_idx": 198
+  },
+  {
+    "num": 10,
+    "text": "What is the relationship between an approved accounting code and the Financial",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Financial Regulations always prevail."
+      },
+      {
+        "letter": "B",
+        "text": "The accounting code shall prevail."
+      },
+      {
+        "letter": "C",
+        "text": "The Minister of Finance decides."
+      },
+      {
+        "letter": "D",
+        "text": "The Auditor-General decides."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 201 (which sets the precedent for accounting codes) states: \"Where the approved code is at variance with these regulations, the code will prevail.” This principle is implied for all accounting codes.",
+    "page_idx": 198
+  },
+  {
+    "num": 12,
+    "text": "Who is enjoined to acquaint themselves with these Regulations, the Finance (Control and",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Only Ministers."
+      },
+      {
+        "letter": "B",
+        "text": "Only the Accountant-General."
+      },
+      {
+        "letter": "C",
+        "text": "Public Officers."
+      },
+      {
+        "letter": "D",
+        "text": "Only External Auditors."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "The Preface states: \"Public Officers. are enjoined to acquaint themselves with these Regulations, the Finance (Control and Management) Act, Cap.144 Laws of the federation of Nigeria 1990, as well as the relevant Sections of the Constitution dealing with public finance. for proper guidance.”",
+    "page_idx": 199
+  },
+  {
+    "num": 13,
+    "text": "What does the Finance (Control and Management) Act Cap 144 Laws of the Federation,",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Only the procurement of goods."
+      },
+      {
+        "letter": "B",
+        "text": "Certain financial matters of the government."
+      },
+      {
+        "letter": "C",
+        "text": "Only the salaries of public officers."
+      },
+      {
+        "letter": "D",
+        "text": "International trade agreements."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 104 states: \"Certain financial matters of government are regulated by the laws of the Federation enacted by the National Assembly. These include the Finance (Control and Management) Act CAP 144 Laws of the Federation of Nigeria, 1990...\"",
+    "page_idx": 199
+  },
+  {
+    "num": 14,
+    "text": "Who is responsible for providing adequate accounting systems and controls in ministries",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Minister of Finance."
+      },
+      {
+        "letter": "B",
+        "text": "The Accounting Officer."
+      },
+      {
+        "letter": "C",
+        "text": "The Accountant-General of the Federation."
+      },
+      {
+        "letter": "D",
+        "text": "The Head of Finance and Accounts."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": null,
+    "page_idx": 199
+  },
+  {
+    "num": 19,
+    "text": "What is one of the key responsibilities of Accounting Officers under the Public Procurement",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "To personally execute all procurements."
+      },
+      {
+        "letter": "B",
+        "text": "To ensure adequate appropriation is available for Procurements in their annual budget."
+      },
+      {
+        "letter": "C",
+        "text": "To approve all payments without review."
+      },
+      {
+        "letter": "D",
+        "text": "To conduct external audits."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 113(b) states: \"ensure that adequate appropriation is available for Procurements in their annual budget.”",
+    "page_idx": 201
+  },
+  {
+    "num": 20,
+    "text": "What is the role of the Head of Finance and Accounts regarding compliance with Financial",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "To ensure compliance by all staff under his control and supervision."
+      },
+      {
+        "letter": "B",
+        "text": "To issue new Financial Regulations."
+      },
+      {
+        "letter": "C",
+        "text": "To audit all financial transactions."
+      },
+      {
+        "letter": "D",
+        "text": "To approve all variations in accounting procedures."
+      }
+    ],
+    "correct_letter": "A",
+    "explanation": "Financial Regulation 114(a) states: “ensuring compliance with Financial Regulations and the Accounting Code by all staff under his control and supervision.\" Financial Regulations: Payments Procedure",
+    "page_idx": 201
+  },
+  {
+    "num": 21,
+    "text": "All payment entries in the cash book/accounts must be vouched for on one of the prescribed",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Accounting Officer."
+      },
+      {
+        "letter": "B",
+        "text": "The Head of Finance and Accounts."
+      },
+      {
+        "letter": "C",
+        "text": "The person or persons to whom the money is actually due."
+      },
+      {
+        "letter": "D",
+        "text": "The Accountant-General."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": null,
+    "page_idx": 201
+  },
+  {
+    "num": 15,
+    "text": "What is one of the duties of the Accountant-General regarding accounting codes and",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "To only approve them."
+      },
+      {
+        "letter": "B",
+        "text": "To approve and ensure compliance with accounting codes, internal audit guides and stock verification manuals."
+      },
+      {
+        "letter": "C",
+        "text": "To formulate them without external input."
+      },
+      {
+        "letter": "D",
+        "text": "To distribute them to the public."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 107(i) states: \"approve and ensure compliance with accounting codes, internal audit guides and stock verification manuals of federal ministries, extra-ministerial offices and other arms of government.”",
+    "page_idx": 200
+  },
+  {
+    "num": 16,
+    "text": "What type of audit ensures that laid down procedures are being observed in tendering,",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Financial Audit."
+      },
+      {
+        "letter": "B",
+        "text": "Appropriation Audit."
+      },
+      {
+        "letter": "C",
+        "text": "Financial Control Audit."
+      },
+      {
+        "letter": "D",
+        "text": "Value-for-Money (Performance) Audit."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 109(1)(c) states: \"Financial Control Audit-to ensure that laid down procedures are being observed in tendering, contracts and store-keeping with a view to preventing waste, pilferage and Extravagance.”",
+    "page_idx": 200
+  },
+  {
+    "num": 17,
+    "text": "Who has free access to books of accounts, files, safes, security documents, and other",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Only the Accounting Officer."
+      },
+      {
+        "letter": "B",
+        "text": "The Accountant-General and the Auditor-General or their representatives."
+      },
+      {
+        "letter": "C",
+        "text": "Only the Minister of Finance."
+      },
+      {
+        "letter": "D",
+        "text": "The Head of Finance and Accounts."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 110 states: \"By virtue of the responsibilities and functions of the Accountant General and the Auditor-General or their representatives shall, at all reasonable times, have free access to books of accounts, files, safes, security documents and other records and information relating to the accounts. of all federal ministries/extra ministerial offices and other arms of government. or units.\"",
+    "page_idx": 200
+  },
+  {
+    "num": 26,
+    "text": "What is strictly prohibited when preparing payment vouchers?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Using ball pens."
+      },
+      {
+        "letter": "B",
+        "text": "Writing in pencil."
+      },
+      {
+        "letter": "C",
+        "text": "Writing totals in figures."
+      },
+      {
+        "letter": "D",
+        "text": "Using typewriters."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 604(a) states: \"On no account shall vouchers be written in pencil.\"",
+    "page_idx": 203
+  },
+  {
+    "num": 27,
+    "text": "What should be drawn immediately before and after the Naira (N) figure when it appears in",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "A single thin horizontal line."
+      },
+      {
+        "letter": "B",
+        "text": "A double thick horizontal line."
+      },
+      {
+        "letter": "C",
+        "text": "A single thick horizontal line."
+      },
+      {
+        "letter": "D",
+        "text": "No line is required."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 604(c) states: \"A single thick horizontal line shall be drawn immediately before, and immediately after the Naira (N) figure where it appears in word.\"",
+    "page_idx": 203
+  },
+  {
+    "num": 28,
+    "text": "Who is responsible for maintaining a payment voucher register and confirming the accuracy",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Sub-Accounting Officer."
+      },
+      {
+        "letter": "B",
+        "text": "The Head of Finance and Accounts."
+      },
+      {
+        "letter": "C",
+        "text": "The Officer controlling the vote."
+      },
+      {
+        "letter": "D",
+        "text": "The Internal Auditor."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 605 states: \"Officer controlling vote shall maintain a payment voucher register... Under no circumstances shall he sign a voucher until it has been entered in the register and has accordingly confirmed the accuracy of the entries therein.\"",
+    "page_idx": 203
+  },
+  {
+    "num": 29,
+    "text": "Which copies of payment vouchers should be signed in full in ink or ball pens by the",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "All copies."
+      },
+      {
+        "letter": "B",
+        "text": "Only the duplicate and triplicate copies."
+      },
+      {
+        "letter": "C",
+        "text": "Only the originals."
+      },
+      {
+        "letter": "D",
+        "text": "Only the copy was sent to the Auditor-General."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": null,
+    "page_idx": 203
+  },
+  {
+    "num": 30,
+    "text": "Question: What is the rule regarding signing multiple certificates on a payment voucher?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Signatures can be written across multiple certificates."
+      },
+      {
+        "letter": "B",
+        "text": "Each certificate on a payment voucher shall be signed separately."
+      },
+      {
+        "letter": "C",
+        "text": "Only the first certificate needs a full signature."
+      },
+      {
+        "letter": "D",
+        "text": "A single signature at the bottom of the voucher is sufficient."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 607 states: \"Each certificate on a payment voucher shall be signed separately. Signatures shall not be written across one or more certificates.”",
+    "page_idx": 204
+  },
+  {
+    "num": 31,
+    "text": "How should duplicate and triplicate copies of vouchers be marked?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "They do not need any special marking."
+      },
+      {
+        "letter": "B",
+        "text": "They should be clearly marked \"Duplicate\" and \"Triplicate\"."
+      },
+      {
+        "letter": "C",
+        "text": "They should be stamped \"Copy\"."
+      },
+      {
+        "letter": "D",
+        "text": "They should be marked \"For Information Only\"."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 608 states: \"Duplicate and triplicate copies shall be clearly marked \"Duplicate\", \"Triplicate\" and copies shall not be accepted as payment vouchers.”",
+    "page_idx": 204
+  },
+  {
+    "num": 32,
+    "text": "What is the maximum time a payment voucher should be held in the checking section?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "24 hours."
+      },
+      {
+        "letter": "B",
+        "text": "48 hours."
+      },
+      {
+        "letter": "C",
+        "text": "72 hours."
+      },
+      {
+        "letter": "D",
+        "text": "5 working days."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 609(iii) states: \"Payment vouchers received in the checking section must be promptly dealt with and under no circumstances shall a voucher be held in that unit for more than forty-eight (48) hours.\"",
+    "page_idx": 204
+  },
+  {
+    "num": 33,
+    "text": "What is the procedure if an alteration to the amount of a voucher is necessary?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The alteration can be initiated by the certifying officer."
+      },
+      {
+        "letter": "B",
+        "text": "A new voucher must be prepared."
+      },
+      {
+        "letter": "C",
+        "text": "The alteration can be made and stamped \"Corrected\"."
+      },
+      {
+        "letter": "D",
+        "text": "The Head of Finance and Accounts can approve the alteration."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 610 states: \"Alterations to the amount of a voucher whether in words or figure are not allowed. A new voucher must be prepared when necessary.” 204",
+    "page_idx": 204
+  },
+  {
+    "num": 22,
+    "text": "Can a cheque be raised or cash paid for services for which a voucher has not been raised?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Yes, in urgent cases."
+      },
+      {
+        "letter": "B",
+        "text": "Yes, with special approval."
+      },
+      {
+        "letter": "C",
+        "text": "No, under no circumstances."
+      },
+      {
+        "letter": "D",
+        "text": "Only if the amount is small."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 601 states: \"Under no circumstances shall a cheque be raised or cash paid for services for which a voucher has not been raised.”",
+    "page_idx": 202
+  },
+  {
+    "num": 23,
+    "text": "How should vouchers be raised for different sub-heads or different services?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "A single voucher can cover multiple sub-heads and services."
+      },
+      {
+        "letter": "B",
+        "text": "Separate vouchers shall be raised for separate sub-heads and different services."
+      },
+      {
+        "letter": "C",
+        "text": "Vouchers can be combined if the total amount is small."
+      },
+      {
+        "letter": "D",
+        "text": "Itis at the discretion of the Accounting Officer."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 602 states: \"Separate vouchers shall be raised for separate sub-heads. Separate vouchers shall also be raised for the payment of different services.\"",
+    "page_idx": 202
+  },
+  {
+    "num": 24,
+    "text": "What kind of particulars should all vouchers contain?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Only the amount and payee name."
+      },
+      {
+        "letter": "B",
+        "text": "Full particulars such as dates, numbers, quantities, distances, and rates."
+      },
+      {
+        "letter": "C",
+        "text": "A brief description of the service."
+      },
+      {
+        "letter": "D",
+        "text": "Reference to the budget only."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 603(i) states: \"All vouchers shall contain full particulars of each service, such as dates, numbers, quantities, distances and rates, so as to enable them to be checked without reference to any other documents and will invariably be supported by relevant documents such as local purchase orders, invoices, special letters of authority, time sheets, etc.”",
+    "page_idx": 202
+  },
+  {
+    "num": 25,
+    "text": "Which of the following is NOT an acceptable form of warrant authority to be quoted on",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Provisional General Warrant (P.G.W.)."
+      },
+      {
+        "letter": "B",
+        "text": "Supplementary (Contingencies) Warrant (S.C.W.)."
+      },
+      {
+        "letter": "C",
+        "text": "Emergency Fund Release (E.FR.)."
+      },
+      {
+        "letter": "D",
+        "text": "Development Fund General Warrant (D.F.G.W.)."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": null,
+    "page_idx": 202
+  },
+  {
+    "num": 35,
+    "text": "When a voucher is submitted for payment at another station, how should it be sent after",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "By regular mail."
+      },
+      {
+        "letter": "B",
+        "text": "By email."
+      },
+      {
+        "letter": "C",
+        "text": "Under the security schedule of Transfer of Payment Vouchers through the Sub-Treasurer."
+      },
+      {
+        "letter": "D",
+        "text": "Hand-carried by the payee."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 612 states: \"When a voucher is submitted to a Sub-Treasury or Cash Office for payment at another station, it will, after being checked and stamped in accordance with Regulation 609, be sent under security schedule of Transfer of Payment Vouchers through the Sub- Treasurer (See TF 193).\"",
+    "page_idx": 205
+  },
+  {
+    "num": 36,
+    "text": "Who is responsible for furnishing proof of identity if required when a payment is being",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Paying Officer."
+      },
+      {
+        "letter": "B",
+        "text": "The payee."
+      },
+      {
+        "letter": "C",
+        "text": "The ministry, extra-ministerial office, or other arms of Government authorising payment."
+      },
+      {
+        "letter": "D",
+        "text": "The Accountant-General."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 613 states: \"...it is the duty of the ministry, extra-ministerial office and other arms of Government authorising payment to furnish proof of identity if required.”",
+    "page_idx": 205
+  },
+  {
+    "num": 37,
+    "text": "When a payee is illiterate, whose mark must be witnessed by a literate official other than the",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The paying officer's mark."
+      },
+      {
+        "letter": "B",
+        "text": "The illiterate payee's mark."
+      },
+      {
+        "letter": "C",
+        "text": "The literate official's mark."
+      },
+      {
+        "letter": "D",
+        "text": "No mark is required."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 614 states: \"Where a payee is an illiterate, his or her mark must be witnessed by a literate official other than the paying officer.” 205",
+    "page_idx": 205
+  },
+  {
+    "num": 39,
+    "text": "How should payments to firms be made?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "By cash only."
+      },
+      {
+        "letter": "B",
+        "text": "By cheque crossed \"Not Negotiable\", \"Account Payee only”, in favour of the firm."
+      },
+      {
+        "letter": "C",
+        "text": "By bank transfer directly to the firm's account."
+      },
+      {
+        "letter": "D",
+        "text": "By postal order."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 616 states: \"Payments to firms, shall be made only by cheques crossed \"Not Negotiable\", \"Account Payee only\", in favour of the firm.\"",
+    "page_idx": 206
+  },
+  {
+    "num": 40,
+    "text": "What must be given on the face of the voucher, signed by the payee, when it is",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "A detailed explanation."
+      },
+      {
+        "letter": "B",
+        "text": "A certificate to that effect."
+      },
+      {
+        "letter": "C",
+        "text": "An affidavit."
+      },
+      {
+        "letter": "D",
+        "text": "A promissory note."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": ". B. A certificate to that effect. C. An affidavit. D. A promissory note. Correct Answer: B Explanation: Financial Regulation 617 states: \"When it is impracticable to obtain receipts for petty disbursements, a certificate to that effect must be given on the face of the voucher signed by the payee.”",
+    "page_idx": 206
+  },
+  {
+    "num": 41,
+    "text": "If a payment to a firm is in doubt due to loss of relevant documents and an initial",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "A new invoice."
+      },
+      {
+        "letter": "B",
+        "text": "A certificate of indemnity."
+      },
+      {
+        "letter": "C",
+        "text": "A sworn affidavit."
+      },
+      {
+        "letter": "D",
+        "text": "A bank statement."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": null,
+    "page_idx": 206
+  },
+  {
+    "num": 42,
+    "text": "Any payment due to or receipted by any government officer in his official capacity shall be",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Their personal bank account."
+      },
+      {
+        "letter": "B",
+        "text": "The Head of Finance and Accounts."
+      },
+      {
+        "letter": "C",
+        "text": "The Treasury."
+      },
+      {
+        "letter": "D",
+        "text": "The Accountant-General directly."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 619 states: \"Any payment due to or receipted by any government officer in his official capacity shall be paid to the Treasury for which official receipt shall be obtained.”",
+    "page_idx": 207
+  },
+  {
+    "num": 43,
+    "text": "What is the minimum amount for a receipt given for payment for goods supplied or services",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "N50.00."
+      },
+      {
+        "letter": "B",
+        "text": "N500.00."
+      },
+      {
+        "letter": "C",
+        "text": "N1,000.00."
+      },
+      {
+        "letter": "D",
+        "text": "N5,000.00."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 620(a)(i) states: \"Receipts given for payment for goods supplied or services rendered. If the amount is N1,000 or over a N50.00 stamp is required in respect of each signature acknowledging an amount.\"",
+    "page_idx": 207
+  },
+  {
+    "num": 44,
+    "text": "Which of the following payments is NOT exempt from Stamp Duty under all conditions?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Advances of salary."
+      },
+      {
+        "letter": "B",
+        "text": "Wages."
+      },
+      {
+        "letter": "C",
+        "text": "Payments for goods supplied or services rendered if the amount is N1,500.00."
+      },
+      {
+        "letter": "D",
+        "text": "Pensions, Gratuities, Compassionate Allowances."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 620(b)(i) states that payments for goods supplied or services rendered are exempt if the amount is under N1,000.",
+    "page_idx": 207
+  },
+  {
+    "num": 45,
+    "text": "Where banking facilities are available, all payments to the public other than firms covered",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "\"Pay to Bearer\"."
+      },
+      {
+        "letter": "B",
+        "text": "\"For Deposit Only\"."
+      },
+      {
+        "letter": "C",
+        "text": "\"Account Payee only\""
+      },
+      {
+        "letter": "D",
+        "text": "\"Cashable at Any Bank\"."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": null,
+    "page_idx": 207
+  },
+  {
+    "num": 54,
+    "text": "What is required for any bank account beyond the three specified types?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Approval from the Minister of Finance."
+      },
+      {
+        "letter": "B",
+        "text": "Express approval of the Accountant-General."
+      },
+      {
+        "letter": "C",
+        "text": "Notification to the Auditor-General."
+      },
+      {
+        "letter": "D",
+        "text": "A resolution from the National Assembly."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 701(ii) states: \"No other bank account shall be allowed without the express approval of the Accountant-General.\"",
+    "page_idx": 210
+  },
+  {
+    "num": 55,
+    "text": "How often should every organization submit a return of their bank accounts to the",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Monthly."
+      },
+      {
+        "letter": "B",
+        "text": "Quarterly."
+      },
+      {
+        "letter": "C",
+        "text": "Half-yearly."
+      },
+      {
+        "letter": "D",
+        "text": "Annually."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 701(v) states: \"Every organisation shall submit a return of their bank accounts half yearly to the Accountant-General...\"",
+    "page_idx": 210
+  },
+  {
+    "num": 56,
+    "text": "Where should all Capital Accounts be maintained?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Any commercial bank."
+      },
+      {
+        "letter": "B",
+        "text": "The Central Bank of Nigeria or any other designated banks by the government."
+      },
+      {
+        "letter": "C",
+        "text": "A foreign bank for international transactions."
+      },
+      {
+        "letter": "D",
+        "text": "At the discretion of the Accounting Officer."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 702 states: \"All Capital Accounts shall be maintained at the Central Bank of Nigeria or any other Banks as may be designated by the government of the federation and authorised by the Accountant-General.”",
+    "page_idx": 210
+  },
+  {
+    "num": 50,
+    "text": "If a payment voucher is reported lost, and it is established that no loss or fraud has",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Auditor-General."
+      },
+      {
+        "letter": "B",
+        "text": "The Minister of Finance."
+      },
+      {
+        "letter": "C",
+        "text": "The Accountant-General."
+      },
+      {
+        "letter": "D",
+        "text": "The Head of Civil Service."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 630 states: \"Where the Accounting Officer is satisfied that no loss or fraud has taken place he will submit a report On the circumstances of the loss of the voucher to the Accountant -General...\" Financial Regulations: Bank Accounts and Cheques",
+    "page_idx": 209
+  },
+  {
+    "num": 51,
+    "text": "Who is authorized to open an official bank account?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Minister of Finance."
+      },
+      {
+        "letter": "B",
+        "text": "The Head of the Ministry."
+      },
+      {
+        "letter": "C",
+        "text": "The Accountant-General."
+      },
+      {
+        "letter": "D",
+        "text": "The Director of Finance and Accounts."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 701(i) states: \"No official bank account shall be opened unless authorised by the Accountant-General.”",
+    "page_idx": 209
+  },
+  {
+    "num": 52,
+    "text": "How many bank accounts is each establishment generally allowed to operate?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "One."
+      },
+      {
+        "letter": "B",
+        "text": "Two."
+      },
+      {
+        "letter": "C",
+        "text": "Three."
+      },
+      {
+        "letter": "D",
+        "text": "Four."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 701(ii) states: \"Each establishment shall be allowed to operate only three (3) bank accounts as follows: (a) Salary Account; (b) Overhead Cost Account; and (c) Revenue Account.”",
+    "page_idx": 209
+  },
+  {
+    "num": 58,
+    "text": "Is the use of abbreviations allowed when writing the payee's name on a cheque?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Yes, for common abbreviations."
+      },
+      {
+        "letter": "B",
+        "text": "Yes, with proper authorization."
+      },
+      {
+        "letter": "C",
+        "text": "No, the name must be written in full."
+      },
+      {
+        "letter": "D",
+        "text": "Only for small amounts."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 703(iii) states: “The name of the payee shall be written in full and the use of abbreviation shall not be allowed.”",
+    "page_idx": 211
+  },
+  {
+    "num": 59,
+    "text": "Who is responsible for fumishing certified specimen signatures of officers authorized to sign",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Head of Finance and Accounts."
+      },
+      {
+        "letter": "B",
+        "text": "All Accounting Officers."
+      },
+      {
+        "letter": "C",
+        "text": "The Accountant-General."
+      },
+      {
+        "letter": "D",
+        "text": "The bank manager."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 705(i) states: \"All Accounting Officers shall furnish the details of commercial banks being used with certified specimen signatures of the officers authorised to sign cheques drawn on official accounts...\"",
+    "page_idx": 211
+  },
+  {
+    "num": 60,
+    "text": "What is the rule regarding delegation of authority to notify the bank of changes in authorized",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "It can be delegated to a senior officer."
+      },
+      {
+        "letter": "B",
+        "text": "Delegation of this authority shall not be allowed."
+      },
+      {
+        "letter": "C",
+        "text": "It can be delegated with the Minister's approval."
+      },
+      {
+        "letter": "D",
+        "text": "Itis at the discretion of the Accounting Officer."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 705(i) states: \"Delegation of this authority shall not be allowed.”",
+    "page_idx": 211
+  },
+  {
+    "num": 61,
+    "text": "What is the minimum rank for signatories to an official bank account?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Accountant Ill."
+      },
+      {
+        "letter": "B",
+        "text": "Accountant Il."
+      },
+      {
+        "letter": "C",
+        "text": "Accountant | or designated officer of equivalent rank."
+      },
+      {
+        "letter": "D",
+        "text": "Senior Executive Officer."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": null,
+    "page_idx": 211
+  },
+  {
+    "num": 46,
+    "text": "Immediately after payment is made, what should the paying officer stamp the original",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "\"PROCESSED\"."
+      },
+      {
+        "letter": "B",
+        "text": "\"PAID\""
+      },
+      {
+        "letter": "C",
+        "text": "\"CLEARED\"."
+      },
+      {
+        "letter": "D",
+        "text": "\"COMPLETED\"."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 622 states: “Immediately after payment is made, the paying officer shall stamp the original voucher and all copies, all invoices warrant or other supporting documents \"PAID\".\"",
+    "page_idx": 208
+  },
+  {
+    "num": 47,
+    "text": "If a payment voucher is presented to obtain cash for payment elsewhere (e.g., salaries),",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "A receipt voucher."
+      },
+      {
+        "letter": "B",
+        "text": "A bank statement."
+      },
+      {
+        "letter": "C",
+        "text": "A cheque/cash order form."
+      },
+      {
+        "letter": "D",
+        "text": "An imprest warrant."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 623 states: \"Where a payment voucher is presented at a Sub-Treasury or Cash Officer for the purpose of obtaining cash for payment to be made elsewhere, as in the case of drawing. cash for the payment of salaries, wages, etc. It shall be accompanied by a cheque/cash order form signed by the officer authorising the voucher, and bearing the signature of the officer authorised to receive the cheque/cash.”",
+    "page_idx": 208
+  },
+  {
+    "num": 48,
+    "text": "Vouchers withdrawn against cheque/cash order forms must be retumed to the Sub-Treasury",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Three days."
+      },
+      {
+        "letter": "B",
+        "text": "Five days."
+      },
+      {
+        "letter": "C",
+        "text": "Seven days."
+      },
+      {
+        "letter": "D",
+        "text": "Ten days."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 624 states: \"Vouchers withdrawn against cheque/cash order forms must be returned to the Sub-Treasury or Cash Officer within seven days.”",
+    "page_idx": 208
+  },
+  {
+    "num": 62,
+    "text": "Under what circumstances should payment be made for services not yet performed or",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "In urgent cases with special approval."
+      },
+      {
+        "letter": "B",
+        "text": "If a mobilization fee is required."
+      },
+      {
+        "letter": "C",
+        "text": "Under no circumstances."
+      },
+      {
+        "letter": "D",
+        "text": "Only if a contract is in place."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 708 states: \"On no account should payment be made for services not yet performed or for goods not yet supplied.\"",
+    "page_idx": 212
+  },
+  {
+    "num": 63,
+    "text": "Who has the right of access to records of all bank accounts of all ministries, extra-ministerial",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Only the Accounting Officer."
+      },
+      {
+        "letter": "B",
+        "text": "The Accountant-General and the Auditor-General or their representatives."
+      },
+      {
+        "letter": "C",
+        "text": "The Minister of Finance."
+      },
+      {
+        "letter": "D",
+        "text": "The Head of Finance and Accounts."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 709 states: “The Accountant-General and the Auditor-General or their representatives shall have the right of access to records of all bank accounts of all ministries, extra ministerial offices and other arms of government...\"",
+    "page_idx": 212
+  },
+  {
+    "num": 64,
+    "text": "What happens if a government bank account is overdrawn?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The bank will automatically cover the overdraft."
+      },
+      {
+        "letter": "B",
+        "text": "The officer responsible shall be made to refund any bank charges incurred thereon."
+      },
+      {
+        "letter": "C",
+        "text": "Areport is sent to the Minister of Finance."
+      },
+      {
+        "letter": "D",
+        "text": "The account is immediately closed."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 710 states: “In the event of an account being overdrawn, the officer responsible shall be made to refund any bank charges incurred thereon.”",
+    "page_idx": 212
+  },
+  {
+    "num": 65,
+    "text": "Can idle funds in the accounts of missions abroad be invested in short-term deposits?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "No, never."
+      },
+      {
+        "letter": "B",
+        "text": "Yes, but only with the prior approval of the Accountant-General."
+      },
+      {
+        "letter": "C",
+        "text": "Yes, at the discretion of the Head of Mission."
+      },
+      {
+        "letter": "D",
+        "text": "Only if the amount is substantial."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 711(i) states: \"Idle funds in the accounts of missions abroad may be invested in short term deposits but with the prior approval of the Accountant- General.” 212",
+    "page_idx": 212
+  },
+  {
+    "num": 67,
+    "text": "What is the implication if an officer pays public money into a private bank account?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Its considered a minor irregularity."
+      },
+      {
+        "letter": "B",
+        "text": "The officer is deemed to have done so with fraudulent intention."
+      },
+      {
+        "letter": "C",
+        "text": "A warming will be issued."
+      },
+      {
+        "letter": "D",
+        "text": "The money will be transferred back to the government account."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 713 states: \"An officer who pays public money into a private account is deemed to have done so with fraudulent intention.\"",
+    "page_idx": 213
+  },
+  {
+    "num": 68,
+    "text": "Where a bank account is kept, what type of payments should generally be made by",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Only large payments."
+      },
+      {
+        "letter": "B",
+        "text": "All payments."
+      },
+      {
+        "letter": "C",
+        "text": "Only contract payments."
+      },
+      {
+        "letter": "D",
+        "text": "Small payments only."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 714 states: \"Where a Bank account is kept, only sufficient cash to meet small payments shall be allowed while all payments should be made by cheques.”",
+    "page_idx": 213
+  },
+  {
+    "num": 69,
+    "text": "How often must officers authorized to keep bank accounts compare entries in bank",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Monthly."
+      },
+      {
+        "letter": "B",
+        "text": "Quarterly."
+      },
+      {
+        "letter": "C",
+        "text": "Weekly and at the close of each month."
+      },
+      {
+        "letter": "D",
+        "text": "Annually."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 716 states: \"All officers authorised to keep bank accounts must compare on- weekly basis, and at the close of each month, the entries appearing in the bank statements with those in their cash books...\" 213",
+    "page_idx": 213
+  },
+  {
+    "num": 75,
+    "text": "Can cheques received by a Sub-Accounting Officer be endorsed or assigned to a third",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Yes, with proper authorization."
+      },
+      {
+        "letter": "B",
+        "text": "Yes, if the third party is another govemment entity."
+      },
+      {
+        "letter": "C",
+        "text": "No, under no circumstances."
+      },
+      {
+        "letter": "D",
+        "text": "Only for urgent payments."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 720(i) states: \"On no account may cheques received by a Sub-Accounting Officer be endorsed or assigned to a third party.\"",
+    "page_idx": 215
+  },
+  {
+    "num": 76,
+    "text": "What is the processing period for cash transfers in respect of AIEs issued by",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Not exceed three (3) working days."
+      },
+      {
+        "letter": "B",
+        "text": "Not exceed five (5) working days."
+      },
+      {
+        "letter": "C",
+        "text": "Not exceed seven (7) working days."
+      },
+      {
+        "letter": "D",
+        "text": "Not exceed ten (10) working days."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 721(i)(c) states: \"the processing period of cash transfers in respect of AlE's issued by ministries/extra ministerial offices and other arms of government in favour of state offices shall not exceed Seven (7) working days.”",
+    "page_idx": 215
+  },
+  {
+    "num": 77,
+    "text": "Who is ultimately responsible for ensuring the recovery of dishonored cheques?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The officer who accepted the cheque."
+      },
+      {
+        "letter": "B",
+        "text": "The Sub-Accounting Officer."
+      },
+      {
+        "letter": "C",
+        "text": "The Accounting Officer concerned."
+      },
+      {
+        "letter": "D",
+        "text": "The bank."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 730(i) states: “It shall be the ultimate responsibility of the Accounting Officer concerned to ensure that these amounts are recovered, instituting legal action if necessary.”",
+    "page_idx": 215
+  },
+  {
+    "num": 71,
+    "text": "Who should sign every request for official cheque books?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Accounting Officer."
+      },
+      {
+        "letter": "B",
+        "text": "One of the authorized signatories to the account and countersigned by the Head of Accounts."
+      },
+      {
+        "letter": "C",
+        "text": "The Minister of Finance."
+      },
+      {
+        "letter": "D",
+        "text": "The Accountant-General."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 718 states: \"Every request for official cheques books shall be signed by one of the authorised signatories to the account and countersigned by the Head of Accounts.”",
+    "page_idx": 214
+  },
+  {
+    "num": 72,
+    "text": "When a cheque is received, how should it be made payable?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "To the specific ministry/department."
+      },
+      {
+        "letter": "B",
+        "text": "To \"Federal Government of Nigeria.\""
+      },
+      {
+        "letter": "C",
+        "text": "To the Accountant-General."
+      },
+      {
+        "letter": "D",
+        "text": "To the payee's name."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 719(i) states: \"A cheque received should be made payable to \"Federal Government of Nigeria.\"",
+    "page_idx": 214
+  },
+  {
+    "num": 73,
+    "text": "What is the maximum amount for a cheque that must be properly confirmed with designated",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "N10,000. B.N20,000."
+      },
+      {
+        "letter": "C",
+        "text": "N50,000."
+      },
+      {
+        "letter": "D",
+        "text": "N100,000."
+      }
+    ],
+    "correct_letter": "A",
+    "explanation": "Financial Regulation 719(i)(h) states: \"All cheques above N20, 000 must be properly confirmed with the designated banks before acceptance.”",
+    "page_idx": 214
+  },
+  {
+    "num": 83,
+    "text": "How are receipt and payment vouchers numbered for entry into the cash book?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Randomly."
+      },
+      {
+        "letter": "B",
+        "text": "Consecutively, from No. 1 each month."
+      },
+      {
+        "letter": "C",
+        "text": "Based on the amount."
+      },
+      {
+        "letter": "D",
+        "text": "According to the type of service."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 802 states: \"Receipt and payment vouchers shall be numbered consecutively, from NO.1 each month in the order in which the amounts are received or paid, and will be entered into the cash book accordingly.”",
+    "page_idx": 217
+  },
+  {
+    "num": 84,
+    "text": "What do the terms \"Revenue\" and \"Expenditure\" refer to in the context of Chapter 8?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Receipts and payments under Heads in the recurrent and capital Estimates."
+      },
+      {
+        "letter": "B",
+        "text": "All financial transactions of the government."
+      },
+      {
+        "letter": "C",
+        "text": "Only income and outgoings from special funds."
+      },
+      {
+        "letter": "D",
+        "text": "Funds managed by the Accountant-General."
+      }
+    ],
+    "correct_letter": "A",
+    "explanation": "Financial Regulation 803 states: “The terms \"Revenue\" and \"Expenditure\" refer to receipts and payments, respectively under Heads appearing in the recurrent and capital Estimates...\"",
+    "page_idx": 217
+  },
+  {
+    "num": 85,
+    "text": "What does \"Below-the-line\" refer to in Chapter 8?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Receipts and payments for services specified in the approved Annual Budget estimates."
+      },
+      {
+        "letter": "B",
+        "text": "Receipts and payments for services not specified in the approved Annual Budget estimates."
+      },
+      {
+        "letter": "C",
+        "text": "Funds that are not subject to audit."
+      },
+      {
+        "letter": "D",
+        "text": "Unaccounted for funds."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 803 states: \"...while Below-the-line refers to receipts and payments for services that are not specified in the approved Annual Budget estimates.”",
+    "page_idx": 217
+  },
+  {
+    "num": 79,
+    "text": "Can a dishonored cheque be held as cash?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Yes, temporarily."
+      },
+      {
+        "letter": "B",
+        "text": "Yes, with the Accounting Officer's approval."
+      },
+      {
+        "letter": "C",
+        "text": "No, under no circumstances."
+      },
+      {
+        "letter": "D",
+        "text": "Only if the amount is small."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 732(ii) states: \"Under no circumstances may a dishonoured cheque be held as cash.\"",
+    "page_idx": 216
+  },
+  {
+    "num": 80,
+    "text": "What is the primary purpose of maintaining a departmental dishonored cheques register?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "To track bank charges."
+      },
+      {
+        "letter": "B",
+        "text": "To ensure clearances are pursued and recoveries affected."
+      },
+      {
+        "letter": "C",
+        "text": "To record all incoming and outgoing cheques."
+      },
+      {
+        "letter": "D",
+        "text": "To provide a summary of daily bank transactions"
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 733(ii) states: \"The register shall be checked monthly by the Head of accounts to ensure that clearances are pursued and recoveries effected.” Part 2: Financial Regulations: Cash Book and Monthly Accounts",
+    "page_idx": 216
+  },
+  {
+    "num": 81,
+    "text": "Who is required to keep a Treasury Cash Book No. 153A or an approved cash book?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Accountant-General."
+      },
+      {
+        "letter": "B",
+        "text": "The Auditor-General."
+      },
+      {
+        "letter": "C",
+        "text": "A Sub-Accounting Officer."
+      },
+      {
+        "letter": "D",
+        "text": "The Head of Finance and Accounts."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 801 states: \"A Sub-Accounting Officer as defined by FR 115 is required to keep a Treasury Cash Book No.153A (see Appendix 9) or a cash book in such form as may be approved by the Accountant-General, in consultation with the Auditor-General.\"",
+    "page_idx": 216
+  },
+  {
+    "num": 99,
+    "text": "What is the purpose of reconciling outstanding items in the Bank Reconciliation Statement",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "To delay payments."
+      },
+      {
+        "letter": "B",
+        "text": "To ensure the effectiveness of the statement."
+      },
+      {
+        "letter": "C",
+        "text": "To reduce bank charges."
+      },
+      {
+        "letter": "D",
+        "text": "To identify new revenue sources."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 807(c) states: \"Prompt action should always be taken to obtain bank advice to confirm the various entries in the bank statement as the effectiveness of the Bank Reconciliation Statement lies in the prompt clearance of outstanding items.\"",
+    "page_idx": 221
+  },
+  {
+    "num": 100,
+    "text": "What kind of payments are Revenue and Expenditure vouchers submitted in duplicate to",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Only for large amounts."
+      },
+      {
+        "letter": "B",
+        "text": "All types of payments unless otherwise directed by the Accountant-General."
+      },
+      {
+        "letter": "C",
+        "text": "Only for inter-ministerial transfers."
+      },
+      {
+        "letter": "D",
+        "text": "Only for capital projects."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 803 states: \"Revenue Expenditure, and Below-the-line vouchers will be submitted to Sub-Accounting Officers in duplicate, except as May be otherwise directed from time to time by the Accountant- General.\" 221",
+    "page_idx": 221
+  },
+  {
+    "num": 1,
+    "text": "Question: What is the primary purpose of adjustments in financial accounting, as described in",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "To increase or decrease cash on hand."
+      },
+      {
+        "letter": "B",
+        "text": "To make transfers between accounts without actual cash receipt or payment."
+      },
+      {
+        "letter": "C",
+        "text": "To record daily petty cash transactions."
+      },
+      {
+        "letter": "D",
+        "text": "To prepare annual financial statements for audit."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 901 states: \"Adjustments are effected by means of Journal entries which enable transfers to be made from one account to another without actual receipt or payment of cash.”",
+    "page_idx": 222
+  },
+  {
+    "num": 2,
+    "text": "Which of the following is an example of a transaction that would typically be handled through",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Payment for a new office supply order."
+      },
+      {
+        "letter": "B",
+        "text": "Correction of accounting errors arising from misclassifications."
+      },
+      {
+        "letter": "C",
+        "text": "Receipt of monthly revenue from a government agency."
+      },
+      {
+        "letter": "D",
+        "text": "Disbursement of salaries to staff."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 901 lists \"correction of accounting errors arising from misclassifications” as an example of an adjustment.",
+    "page_idx": 222
+  },
+  {
+    "num": 3,
+    "text": "Which Treasury Form (TF) is primarily used for inter-ministerial transactions?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "TF 15 B.TF72 C.TF"
+      },
+      {
+        "letter": "D",
+        "text": "TF"
+      }
+    ],
+    "correct_letter": "A",
+    "explanation": "Financial Regulation 903(i) states: \"The Adjustment Voucher (TF 23) which is designed to adjust inter-ministerial transactions is mostly used in - ministries, extra-ministerial offices and other arms of government.”",
+    "page_idx": 222
+  },
+  {
+    "num": 4,
+    "text": "How many copies of the Adjustment Voucher (TF 23) are typically submitted?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "One (original)"
+      },
+      {
+        "letter": "B",
+        "text": "Two (original and duplicate)"
+      },
+      {
+        "letter": "C",
+        "text": "Three (original and two copies)"
+      },
+      {
+        "letter": "D",
+        "text": "Four (quadruplicate)"
+      }
+    ],
+    "correct_letter": "D",
+    "explanation": null,
+    "page_idx": 222
+  },
+  {
+    "num": 87,
+    "text": "What should be done with cheques held as cash at the close of business?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Kept overnight in the safe."
+      },
+      {
+        "letter": "B",
+        "text": "Paid to the bank or cleared on the next business day."
+      },
+      {
+        "letter": "C",
+        "text": "Reported to the Accounting Officer."
+      },
+      {
+        "letter": "D",
+        "text": "Recorded as outstanding payments."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 804 states: \"Cheques held as cash at the close of business will be paid to the bank or otherwise cleared on the next business day.”",
+    "page_idx": 218
+  },
+  {
+    "num": 88,
+    "text": "Can a cheque that has been presented to the bank and returned unpaid be held as cash?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Yes, temporarily."
+      },
+      {
+        "letter": "B",
+        "text": "Yes, with the Accounting Officer's approval."
+      },
+      {
+        "letter": "C",
+        "text": "No, under no circumstances."
+      },
+      {
+        "letter": "D",
+        "text": "Only if the amount is small."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 804 states: \"In no circumstances may a cheque which has been presented to the bank and returned unpaid be held as cash.”",
+    "page_idx": 218
+  },
+  {
+    "num": 89,
+    "text": "Who signs the cash book at the end of each month to certify the correctness of entries and",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The cashier."
+      },
+      {
+        "letter": "B",
+        "text": "The Head of Accounts."
+      },
+      {
+        "letter": "C",
+        "text": "The Sub-Accounting Officer."
+      },
+      {
+        "letter": "D",
+        "text": "The Accounting Officer."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 805 states: \"The cash book shall be signed at the end of each month by the Sub Accounting Officer whose signature will be taken as certifying the correctness of the entries and cash balance.”",
+    "page_idx": 218
+  },
+  {
+    "num": 91,
+    "text": "How should unpresented cheques that become stale after 6 months be handled?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Re-issued immediately."
+      },
+      {
+        "letter": "B",
+        "text": "Written back in the Cash Book after written confirmation of non-payment from the bank."
+      },
+      {
+        "letter": "C",
+        "text": "Reported as a loss of funds."
+      },
+      {
+        "letter": "D",
+        "text": "Forwarded to the Accountant-General."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 807(a) states: \"Unpresented cheques which become stale after 6 months should be written back in the Cash Book after written confirmation of non-payment from the bank.\"",
+    "page_idx": 219
+  },
+  {
+    "num": 92,
+    "text": "How often should Sub-Accounting Officers submit their accounts?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "By the seventh day of the following month."
+      },
+      {
+        "letter": "B",
+        "text": "By the fourteenth day of the following month."
+      },
+      {
+        "letter": "C",
+        "text": "By the end of the following month."
+      },
+      {
+        "letter": "D",
+        "text": "Quarterly."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 808(i) states: \"Sub-Accounting Officers shall submit their accounts by the fourteenth day of the following month or within such other period as may be prescribed by the Accountant-General.\"",
+    "page_idx": 219
+  },
+  {
+    "num": 93,
+    "text": "What is the Monthly Consolidated Account also known as?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Ledger."
+      },
+      {
+        "letter": "B",
+        "text": "The Financial Statement."
+      },
+      {
+        "letter": "C",
+        "text": "Transcripts."
+      },
+      {
+        "letter": "D",
+        "text": "The Audit Report."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 809 states: \"The Monthly Consolidated Account otherwise known as \"Transcripts\" will consist of...\"",
+    "page_idx": 219
+  },
+  {
+    "num": 95,
+    "text": "What information should a voucher substitute contain?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "Only the amount paid."
+      },
+      {
+        "letter": "B",
+        "text": "Month and year of account, payment voucher number, classification, amount paid, and sufficient details to permit identification of the transaction."
+      },
+      {
+        "letter": "C",
+        "text": "The name of the payee."
+      },
+      {
+        "letter": "D",
+        "text": "The reason for the missing voucher."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 810 states: \"Voucher substitutes will show month and year of account and will also contain payment voucher number, classification, amount paid and sufficient details to permit identification of the transaction.”",
+    "page_idx": 220
+  },
+  {
+    "num": 96,
+    "text": "What register must a Sub-Accounting Officer maintain for outstanding vouchers?",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "A general ledger."
+      },
+      {
+        "letter": "B",
+        "text": "A register of outstanding vouchers (Treasury Form 73)."
+      },
+      {
+        "letter": "C",
+        "text": "A payment log."
+      },
+      {
+        "letter": "D",
+        "text": "A daily transaction record."
+      }
+    ],
+    "correct_letter": "B",
+    "explanation": "Financial Regulation 811(i) states: \"Sub-Accounting Officer shall maintain a register of outstanding vouchers (Treasury Form 73) which shall be marked off 11S they are received.”",
+    "page_idx": 220
+  },
+  {
+    "num": 97,
+    "text": "Who is personally responsible for obtaining acquittal for payments out of public funds until",
+    "subject": "Financial Regulations",
+    "year": 2025,
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Accounting Officer."
+      },
+      {
+        "letter": "B",
+        "text": "The Auditor-General."
+      },
+      {
+        "letter": "C",
+        "text": "The Sub-Accounting Officer."
+      },
+      {
+        "letter": "D",
+        "text": "The Head of Accounts."
+      }
+    ],
+    "correct_letter": "C",
+    "explanation": "Financial Regulation 811(ii) states: “It is the personal responsibility of the Sub-Accounting Officer to obtain acquittal for the payments out of public funds and this responsibility exists until he has obtained the relevant payment vouchers (See Regulation 621).\" 220",
+    "page_idx": 220
+  }
+]

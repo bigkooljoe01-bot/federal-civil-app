@@ -1,0 +1,39 @@
+(9) New Track Publication
+A. Salary Account.
+B. Overhead Cost Account.
+C. Project Account.
+D. Revenue Account.
+Correct Answer: C
+Explanation: Financial Regulation 701(ii) lists Salary Account, Overhead Cost Account, and
+Revenue Account as the three allowed accounts.
+54. What is required for any bank account beyond the three specified types?
+A. Approval from the Minister of Finance.
+B. Express approval of the Accountant-General.
+C. Notification to the Auditor-General.
+D. A resolution from the National Assembly.
+Correct Answer: B
+Explanation: Financial Regulation 701(ii) states: "No other bank account shall be allowed
+without the express approval of the Accountant-General."
+55. How often should every organization submit a return of their bank accounts to the
+Accountant-General?
+A. Monthly.
+B. Quarterly.
+C. Half-yearly.
+D. Annually.
+Correct Answer: C
+Explanation: Financial Regulation 701(v) states: "Every organisation shall submit a return of
+their bank accounts half yearly to the Accountant-General..."
+56. Where should all Capital Accounts be maintained?
+A. Any commercial bank.
+B. The Central Bank of Nigeria or any other designated banks by the government.
+C. A foreign bank for international transactions.
+D. At the discretion of the Accounting Officer.
+Correct Answer: B
+Explanation: Financial Regulation 702 states: "All Capital Accounts shall be maintained at the
+Central Bank of Nigeria or any other Banks as may be designated by the government of the
+federation and authorised by the Accountant-General.”
+57. What must be stamped on every cheque leaf?
+A. The date of issue.
+B. The correct account number.
+C. The payee's name.
+210

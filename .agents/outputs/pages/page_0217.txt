@@ -1,0 +1,38 @@
+(9) New Track Publication
+C. Bi-weekly, as a summary.
+D. Monthly, by type of transaction.
+Correct Answer: B.
+Explanation: Financial Regulation 802 states: "A Sub-Accounting Officer shall enter promptly
+into the cash book all sums of money received by him or paid by him as a public officer,
+supporting such entries by a receipt or payment voucher on the prescribed form. Receipt and
+payment vouchers shall be numbered consecutively, from NO.1 each month in the order in
+which the amounts are received or paid, and will be entered into the cash book accordingly.”
+83. How are receipt and payment vouchers numbered for entry into the cash book?
+A. Randomly.
+B. Consecutively, from No. 1 each month.
+C. Based on the amount.
+D. According to the type of service.
+Correct Answer: B.
+Explanation: Financial Regulation 802 states: "Receipt and payment vouchers shall be
+numbered consecutively, from NO.1 each month in the order in which the amounts are received
+or paid, and will be entered into the cash book accordingly.”
+84. What do the terms "Revenue" and "Expenditure" refer to in the context of Chapter 8?
+A. Receipts and payments under Heads in the recurrent and capital Estimates.
+B. All financial transactions of the government.
+C. Only income and outgoings from special funds.
+D. Funds managed by the Accountant-General.
+Correct Answer: A.
+Explanation: Financial Regulation 803 states: “The terms "Revenue" and "Expenditure" refer to
+receipts and payments, respectively under Heads appearing in the recurrent and capital
+Estimates..."
+85. What does "Below-the-line" refer to in Chapter 8?
+A. Receipts and payments for services specified in the approved Annual Budget estimates.
+B. Receipts and payments for services not specified in the approved Annual Budget estimates.
+C. Funds that are not subject to audit.
+D. Unaccounted for funds.
+Correct Answer: B.
+Explanation: Financial Regulation 803 states: "...while Below-the-line refers to receipts and
+payments for services that are not specified in the approved Annual Budget estimates.”
+86. How often should the cash book be ruled off and balanced?
+A. Weekly.
+217

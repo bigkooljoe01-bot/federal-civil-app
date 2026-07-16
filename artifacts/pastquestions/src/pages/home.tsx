@@ -3,7 +3,7 @@ import { Link } from "wouter";
 import { useAuth } from "@workspace/replit-auth-web";
 import { useGetMyProgress } from "@workspace/api-client-react";
 import { Button } from "@/components/ui/button";
-import { BookOpen, GraduationCap, ChevronRight, CheckCircle2 } from "lucide-react";
+import { BookOpen, GraduationCap, ChevronRight, CheckCircle2, Shield, FileText, Award } from "lucide-react";
 
 export default function Home() {
   const { isAuthenticated, login } = useAuth();
@@ -17,11 +17,13 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <header className="h-20 border-b flex items-center justify-between px-6 md:px-12 max-w-[1400px] mx-auto w-full">
-        <div className="flex items-center gap-2 font-bold text-2xl text-primary tracking-tight">
+        <div className="flex items-center gap-2 font-bold text-xl text-primary tracking-tight">
           <div className="bg-primary text-primary-foreground p-1.5 rounded-md">
             <BookOpen className="h-6 w-6" />
           </div>
-          ExamPrep
+          <span className="hidden sm:inline">Federal Civil Service</span>
+          <span className="hidden sm:inline text-muted-foreground font-normal">Past Q&amp;A</span>
+          <span className="sm:hidden">FedCSQ</span>
         </div>
         <div>
           {isAuthenticated ? (
@@ -37,16 +39,31 @@ export default function Home() {
       <main className="flex-1 flex flex-col items-center justify-center px-6 text-center max-w-4xl mx-auto w-full py-12">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-8">
           <GraduationCap className="h-4 w-4" />
-          <span>Ace Your Exams with Confidence</span>
+          <span>Directorate Cadre Promotion Examination Prep</span>
         </div>
         
-        <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-foreground mb-6">
-          Master WAEC, NECO & JAMB. <span className="text-primary block mt-2">Anytime, Anywhere.</span>
+        <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-foreground mb-6">
+          Federal Civil Service<br />
+          <span className="text-primary">Past Questions &amp; Answers</span>
         </h1>
         
         <p className="text-xl text-muted-foreground mb-10 max-w-2xl">
-          The ultimate study companion for Nigerian students. Practice past questions under timed conditions, track your progress, and walk into the exam hall ready to succeed.
+          The complete CBT practice resource for aspiring Federal Civil Service Directors. Practice questions on Public Service Rules, Financial Regulations, Administrative Procedures, and more.
         </p>
+
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10 w-full max-w-2xl">
+          {[
+            { icon: FileText, label: "Public Service Rules", desc: "PSR questions & answers" },
+            { icon: Shield, label: "Financial Regulations", desc: "FR exam practice" },
+            { icon: Award, label: "Civil Service Handbook", desc: "CS practice tests" },
+          ].map(({ icon: Icon, label, desc }) => (
+            <div key={label} className="bg-card border rounded-xl p-4 text-left shadow-sm">
+              <Icon className="h-5 w-5 text-primary mb-2" />
+              <div className="font-semibold text-sm">{label}</div>
+              <div className="text-xs text-muted-foreground">{desc}</div>
+            </div>
+          ))}
+        </div>
 
         {isAuthenticated && progress ? (
           <div className="bg-card border rounded-xl p-8 mb-8 w-full max-w-md shadow-sm text-left">
@@ -71,11 +88,15 @@ export default function Home() {
         ) : (
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" onClick={() => login()} className="text-lg h-14 px-8 shadow-md">
-              Start Practicing Now
+              Start Practising Now
             </Button>
           </div>
         )}
       </main>
+
+      <footer className="border-t py-6 text-center text-sm text-muted-foreground">
+        Federal Civil Service Past Questions &amp; Answers &mdash; Directorate Cadre CBT Preparation Guide
+      </footer>
     </div>
   );
 }

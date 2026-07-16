@@ -1,0 +1,37 @@
+(9) New Track Publication
+Explanation: Financial Regulation 606 states: "Only the originals of payment vouchers shall be
+signed in full in ink or ball pens by the certifying officer and the payee.”
+30. Question: What is the rule regarding signing multiple certificates on a payment voucher?
+A. Signatures can be written across multiple certificates.
+B. Each certificate on a payment voucher shall be signed separately.
+C. Only the first certificate needs a full signature.
+D. A single signature at the bottom of the voucher is sufficient.
+Correct Answer: B
+Explanation: Financial Regulation 607 states: "Each certificate on a payment voucher shall be
+signed separately. Signatures shall not be written across one or more certificates.”
+31. How should duplicate and triplicate copies of vouchers be marked?
+A. They do not need any special marking.
+B. They should be clearly marked "Duplicate" and "Triplicate".
+C. They should be stamped "Copy".
+D. They should be marked "For Information Only".
+Correct Answer: B
+Explanation: Financial Regulation 608 states: "Duplicate and triplicate copies shall be clearly
+marked "Duplicate", "Triplicate" and copies shall not be accepted as payment vouchers.”
+32. What is the maximum time a payment voucher should be held in the checking section?
+A. 24 hours.
+B. 48 hours.
+C. 72 hours.
+D. 5 working days.
+Correct Answer: B
+Explanation: Financial Regulation 609(iii) states: "Payment vouchers received in the checking
+section must be promptly dealt with and under no circumstances shall a voucher be held in that
+unit for more than forty-eight (48) hours."
+33. What is the procedure if an alteration to the amount of a voucher is necessary?
+A. The alteration can be initiated by the certifying officer.
+B. A new voucher must be prepared.
+C. The alteration can be made and stamped "Corrected".
+D. The Head of Finance and Accounts can approve the alteration.
+Correct Answer: B
+Explanation: Financial Regulation 610 states: "Alterations to the amount of a voucher whether
+in words or figure are not allowed. A new voucher must be prepared when necessary.”
+204

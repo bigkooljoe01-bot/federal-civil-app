@@ -1,0 +1,38 @@
+(9) New Track Publication
+A. The Minister of Finance.
+B. The Auditor-General
+C. The Accountant-General or, in the case of a self-accounting agency, to the Accounting
+Officer.
+D. The Head of Department.
+Correct Answer: C
+Explanation: Financial Regulation 1005 directs that "Applications for imprests should be made
+to the Accountant-General or in the case of a self-accounting agency, to the Accounting
+Officer..."
+25. What Treasury Form (TF) is used for the issue and payments of impress?
+A. Treasury Form 15.
+B. Treasury Form 23.
+C. Treasury Form 9.
+D. Treasury Form 34.
+Correct Answer: C.
+Explanation: Financial Regulation 1006 states: "Authorities for issue-and payments of imprests
+shall be effected on a Departmental Imprests Warrant (Treasury Form 9)..."
+26. Where should all imprests issued and their retirement be recorded?
+A. In the main ledger.
+B. In a special imprest ledger.
+C. In the cash book only.
+D. In the vote book.
+Correct Answer: B.
+Explanation: Financial Regulation 1006 specifies: "All imprests issued and their retirement shall
+be recorded in a special imprest ledger.”
+27. How should issues of imprest be classified in the General Ledger Account?
+A. To "Expenditure" in the name of the Imprest Holder.
+B. To "Revenue" in the name of the Imprest Holder.
+C. To "Imprests” in the name and designation of the Imprest Holder.
+D. To "Suspense Account”
+Correct Answer: C.
+Explanation: Financial Regulation 1006 states: "Issues shall be classified to "Imprests" General
+Ledger Account in the name and designation of the Imprest Holder.”
+28. To obtain reimbursement for amounts paid from an imprest, what must the holder submit?
+A. A simple request note.
+B. Properly completed and receipted payment vouchers for the amount expended.
+228

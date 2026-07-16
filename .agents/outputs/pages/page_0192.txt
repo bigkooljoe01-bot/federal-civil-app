@@ -1,0 +1,37 @@
+(9) New Track Publication
+Explanation: Financial Regulation 412(ii) states: "All instruments of commitments, indents,
+LPOs, job Orders, and signed contracts must be entered into the Vote Book as liabilities.”
+87. What happens if an officer neglects to press for claims from private parties, causing
+prejudice to the private party?
+A. The private party is solely responsible.
+B. The officer who neglected to press for claims shall be held responsible.
+C. The Accountant-General wil intervene.
+D. The claim will be written off.
+Correct Answer: B
+Explanation: Financial Regulation 412(i) states: "Neglect to do this will not prejudice the private
+party but the Officer who has neglected to press for claims shall be held responsible.”
+88. What is the purpose of stamping vouchers "ENTERED IN VOTE BOOK"?
+A. To indicate approval for payment.
+B. To confirm that the expenditure has been recorded as a commitment or payment in the vote
+book.
+C. To show that the voucher has been audited.
+D. To mark it for archiving.
+Correct Answer: B
+Explanation: Financial Regulation 407 implies this purpose, ensuring that financial
+commitments and payments are properly tracked against the allocated budget.
+89. If a payment is made on account for a contract, what is the money claimed limited to?
+A. The full contract sum.
+B. The cost of the work certified to have been performed.
+C. An arbitrary percentage of the contract.
+D. The amount available in the vote.
+Correct Answer: B
+Explanation: Financial Regulation 412 states: “In the case o. payment on account, no money
+will be claimed other than the cost of the work certified to have been performed.”
+90. What is the implication of an unexpended portion of any sub-head not being drawn for the
+purpose of setting it in reserve?
+A. It can be carried to a deposit account.
+B. It can be placed in a suspense account.
+C. It should not be drawn for setting in reserve or carried to a deposit/suspense account.
+D. It automatically lapses.
+Correct Answer: C
+192

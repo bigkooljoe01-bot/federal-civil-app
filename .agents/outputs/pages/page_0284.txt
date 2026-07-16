@@ -1,0 +1,38 @@
+(9) New Track Publication
+46. To what classification code should both the Treasury Receipt Voucher and Payment Voucher
+for pension deductions be classified?
+A. Revenue Head and Sub-Head.
+B. Cash transfer code 2000 series.
+C. Capital expenditure code.
+D. General administrative expenses.
+Correct Answer: B
+Explanation: Financial Regulation 1907 specifies that both the Treasury Receipt Voucher and
+Payment Voucher should be classified to cash transfer code 2000 series.
+47. What is the overall goal of the pension scheme outlined in Chapter 19?
+A. To centralize all government funds
+B. To ensure proper administration and accounting of pension contributions.
+C. To reduce government expenditure.
+D. To provide short-term loans to employees.
+Correct Answer: B
+Explanation: The chapter details the administration, responsibilities of various entities, and
+accounting procedures for the pension scheme, indicating its goal is proper management of
+contributions.
+48. What document provides the legal framework for the investment of pension funds by the
+Central Bank of Nigeria?
+A. The Financial Regulations book.
+B. The Pension Reform Act.
+C. The Annual Appropriation Act.
+D. The Ministry of Finance circulars.
+Correct Answer: B
+Explanation: Financial Regulation 1904(b) states that investments are made "as provided in
+the Pension Reform Act.”
+49. What is a "Below-the-Line Classification code" used for in the context of pension
+contributions?
+A. To categorize revenue.
+B. To record monthly pension contributions.
+C. To track outstanding debts.
+D. To manage capital projects.
+Correct Answer: B
+Explanation: Financial Regulation 1906 states that this code is used "for the recording of
+monthly pension contributions.”
+284

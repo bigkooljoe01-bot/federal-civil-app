@@ -2,13 +2,13 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Toaster } from '@/components/ui/toaster';
 import { TooltipProvider } from '@/components/ui/tooltip';
 import NotFound from '@/pages/not-found';
-import { Route, Switch, Router as WouterRouter } from 'wouter';
+import { Route, Switch, Router as WouterRouter, Redirect } from 'wouter';
 import { ThemeProvider } from '@/components/theme-provider';
 
 import { Layout } from '@/components/layout';
 import { ProtectedRoute } from '@/components/protected-route';
 
-import Home from '@/pages/home';
+import Login from '@/pages/login';
 import Dashboard from '@/pages/dashboard';
 import Practice from '@/pages/practice';
 import Exam from '@/pages/exam';
@@ -35,22 +35,24 @@ function withLayout(Component: React.ComponentType<any>) {
   };
 }
 
-const DashboardPage   = withLayout(Dashboard);
-const PracticePage    = withLayout(Practice);
-const ResultPage      = withLayout(Result);
-const ReviewPage      = withLayout(Review);
-const HistoryPage     = withLayout(History);
-const AdminDashPage   = withLayout(AdminDashboard);
-const AdminQsPage     = withLayout(AdminQuestions);
-const QFormPage       = withLayout(QuestionForm);
-const AdminSubjPage   = withLayout(AdminSubjects);
-const AdminTypesPage  = withLayout(AdminExamTypes);
-const AdminUsersPage  = withLayout(AdminUsers);
+const DashboardPage  = withLayout(Dashboard);
+const PracticePage   = withLayout(Practice);
+const ResultPage     = withLayout(Result);
+const ReviewPage     = withLayout(Review);
+const HistoryPage    = withLayout(History);
+const AdminDashPage  = withLayout(AdminDashboard);
+const AdminQsPage    = withLayout(AdminQuestions);
+const QFormPage      = withLayout(QuestionForm);
+const AdminSubjPage  = withLayout(AdminSubjects);
+const AdminTypesPage = withLayout(AdminExamTypes);
+const AdminUsersPage = withLayout(AdminUsers);
 
 function Router() {
   return (
     <Switch>
-      <Route path="/" component={Home} />
+      {/* Public */}
+      <Route path="/" component={() => <Redirect to="/login" />} />
+      <Route path="/login" component={Login} />
 
       {/* Student Routes */}
       <Route path="/dashboard">
@@ -102,7 +104,7 @@ function Router() {
 
 function App() {
   return (
-    <ThemeProvider defaultTheme="light" storageKey="examprep-theme">
+    <ThemeProvider defaultTheme="light" storageKey="fedcsq-theme">
       <QueryClientProvider client={queryClient}>
         <TooltipProvider>
           <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, '')}>

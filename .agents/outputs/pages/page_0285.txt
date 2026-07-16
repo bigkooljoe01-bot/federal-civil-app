@@ -1,0 +1,38 @@
+(9) New Track Publication
+50. What is the significance of the Subsidiary Account Pension Unit functioning independently?
+A. It allows for less oversight.
+B. It ensures specialization and clear accountability for pension-related financial procedures.
+C. It prevents any external audits.
+D. It simplifies the overall accounting process.
+Correct Answer: B
+Explanation: The independent functioning, as per FR 1905, suggests a focus on specialized
+and accountable management of pension funds.
+51. Who issues the monthly personnel cost warrants that trigger the pension accounting
+procedures?
+A. The Accountant-General.
+B. The Director of Finance and Accounts.
+C. The Budget Office.
+D. The National Pension Commission.
+Correct Answer: C
+Explanation: Financial Regulation 1907 indicates that the Director of Finance and Accounts
+receives "monthly personnel cost warrants from the Budget Office.”
+52. What type of account is the Retirement Savings Account (RSA)?
+A. A general govemment account.
+B. An account specific to each employee for pension contributions.
+C. A suspense account for unclaimed funds.
+D. An investment account managed by ministries.
+Correct Answer: B
+Explanation: Financial Regulation 1904(a) states the NPC will open “Retirement Savings
+Accounts (RSA) for each employee.”
+53. What aspect of contributions does the National Pension Commission credit to the
+Retirement Savings Accounts (RSA)?
+A. Only employee contributions.
+B. Only employer contributions.
+C. Both employer and employee contributions, and interest earned.
+D. Only interest eamed.
+Correct Answer: C
+Explanation: Financial Regulation 1904(a) specifies that the NPC will credit "both the
+collections and interest earned to the account.”
+54. What is the significance of a "nominal payment voucher" in the pension accounting
+procedure?
+285

@@ -1,0 +1,40 @@
+(9) New Track Publication
+Correct Answer: B.
+Explanation: Financial Regulation 906 states: "Where adjustments affect expenditure
+sub-heads in a current financial year, the amounts whether debit or credit must be entered ill the
+vote book and tie relevant vouchers stamped accordingly before the officer controling the vote
+accepts.”
+9. Adjustments in which Unallocated Stores and Workshops Accounts are credited must be
+embodied in which document?
+A. Principal Journal Voucher (PJV)
+B. Supplementary Journal Voucher (SJV)
+C. Material Expense Statement (M.E.S.)
+D. Treasury Form 23
+Correct Answer: C.
+Explanation: Financial Regulation 907 states: "Adjustments in which Unallocated Stores and
+Workshops Accounts are credited must be embodied in the relevant Material Expense
+Statement (M.E~S.)."
+10. If an adjustment voucher supports an adjustment between votes that is not to be included in
+the Material Expense Statement (M.E.S.), whose signature must it bear?
+A. The Accountant-General.
+B. The Minister of Finance.
+C. The engineer or officer actually in charge of the vote.
+D. The Head of Accounts.
+Correct Answer: C.
+Explanation: Financial Regulation 907 states: "Vouchers supporting adjustments between
+votes which are not to be included in the M.E.S. must bear the signature of the engineer or
+officer actually in charge of the vote."
+11. Where should vouchers in respect of adjustments arising from reconciliations be submitted?
+A. To the Auditor-General only.
+B. To the Accountant-General only.
+CC. Wherever possible, they should accompany the Reconciliation Statements.
+D. They should be filed separately and not submitted.
+Correct Answer: C
+Explanation: Financial Regulation 908 states: "Vouchers in respect of adjustments arising from
+reconciliations should, wherever possible, accompany the Reconciliation Statements.
+12. What is the primary characteristic that distinguishes an adjustment from a cash transaction?
+A. The amount involved.
+B. The use of a specific Treasury Form.
+C. The absence of actual cash receipt or payment.
+
+224

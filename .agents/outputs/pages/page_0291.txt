@@ -1,0 +1,38 @@
+(9) New Track Publication
+B. Returns of all vehicles, showing mileage covered, quantity of fuel consumed, and cost of
+repairs.
+C. Returns of driver training programs.
+D. Returns of vehicle insurance premiums.
+Correct Answer: B
+Explanation: Financial Regulation 2018 requires quarterly returns of all vehicles, showing
+mileage covered, quantity of fuel consumed, and cost of repairs.
+75. To whom are the quarterly returns on government vehicles submitted?
+A. The Minister of Finance.
+B. The Accountant-General.
+C. The Auditor-General.
+D. Both the Accountant-General and the Auditor-General.
+Correct Answer: D
+Explanation: Financial Regulation 2018 specifies that the quarterly retumns are submitted to the
+Accountant-General and the Auditor-General.
+76. What happens if a goverment vehicle becomes unserviceable as a result of an accident
+caused by the negligence of a driver?
+A. Itis immediately written off.
+B. The driver is required to pay for a new vehicle.
+C. The driver may be surcharged the book value of the vehicle.
+D. The vehicle is sold for scrap.
+Correct Answer: C
+Explanation: Financial Regulation 2020 states that the driver may be surcharged the book
+value of the vehicle if it becomes unserviceable due to their negligence.
+77. Who is responsible for taking disciplinary action against a driver who causes an accident
+through negligence?
+A. The Transport Officer.
+B. The Accounting Officer.
+C. The Head of Internal Audit.
+D. The Minister of Finance.
+Correct Answer: B
+Explanation: Financial Regulation 2022 states that the Accounting Officer is responsible for
+taking disciplinary action.
+78. What should the Accounting Officer do if a civil or criminal action is contemplated regarding
+a government vehicle accident?
+A. Handle it personally.
+291

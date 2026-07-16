@@ -1,0 +1,38 @@
+(9) New Track Publication
+D. The approval level required.
+Correct Answer: C.
+Explanation: Financial Regulation 901 clearly defines adjustments as transfers "without actual
+receipt or payment of cash.”
+13. What types of transfers are effected by Principal Journal Vouchers (PJVs) at the end of the
+month?
+A. Transfers from "Below-the-line Accounts” to "Above-the-line Accounts.”
+B. Transfers from "Above-the-line Accounts” to "Below-the-line Accounts.”
+C. Transfers between different ministries.
+D. Transfers related to revenue collection only.
+Correct Answer: B.
+Explanation: Financial Regulation 904(ii)(c) states that PJVs are prepared to "effect month-end
+transfer of accounts from Above-the-line Accounts to Below-the-line Accounts.”
+14. What is the purpose of Supplementary Journal Vouchers (SJVs) in the OAGF?
+A. To adjust differences between ministry transcripts and bank transfer statements, and to
+re-classify accounts before the Trial Balance.
+B. To correct misclassifications and effect annual transfers.
+C. To record all incoming and outgoing cash.
+D. To manage unallocated stores
+Correct Answer: A.
+Explanation: Financial Regulation 904(iii) states SJVs are prepared "to adjust differences
+between ministry transcript's figures and those contained in the Bank Transfer Statements
+prepared by the Sub- Treasurer of the Federation; and to re-classify accounts before the Trial
+Balance is prepared.”
+15. When an adjustment voucher is accepted by a ministry, extra-ministerial office, or other arm
+of government, what is returned as evidence of acceptance or rejection?
+A. A copy of the original memo.
+B. One of the fully signed adjustment vouchers.
+C. A verbal confirmation.
+D. A new Treasury Form 23.
+Correct Answer: B
+Explanation: Financial Regulation 903(iii) states: “The ministry, extra-ministerial office or other
+ams of government which is receiving the adjustment voucher shall stamp and return one of
+the fully signed vouchers as evidence of acceptance or rejection.”
+Financial Regulations: Imprests
+16. What is the definition of "Imprest" according to Financial Regulation 1001?
+225

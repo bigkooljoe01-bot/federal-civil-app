@@ -1,5 +1,5 @@
 import React from "react";
-import { useAuth } from "@workspace/replit-auth-web";
+import { useLocalAuth } from "@/hooks/use-local-auth";
 import { Link, useLocation } from "wouter";
 import { useGetMe } from "@workspace/api-client-react";
 import {
@@ -15,17 +15,16 @@ import {
   SidebarSeparator,
 } from "@/components/ui/sidebar";
 import {
-  LayoutDashboard,
   BookOpen,
   History,
-  Settings,
-  Users,
-  Database,
-  FileText,
   LogOut,
   Moon,
   Sun,
   User as UserIcon,
+  LayoutDashboard,
+  Users,
+  Database,
+  FileText,
 } from "lucide-react";
 import { useTheme } from "@/components/theme-provider";
 import { Button } from "@/components/ui/button";
@@ -35,10 +34,10 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 
 export function Layout({ children }: { children: React.ReactNode }) {
-  const { logout } = useAuth();
+  const { logout } = useLocalAuth();
   const { data: user } = useGetMe();
   const [location] = useLocation();
   const { theme, setTheme } = useTheme();
@@ -58,17 +57,18 @@ export function Layout({ children }: { children: React.ReactNode }) {
   ];
 
   const nav = user?.role === "admin" ? adminNav : studentNav;
+  const displayName = user?.firstName || user?.username || "User";
 
   return (
     <SidebarProvider>
       <div className="flex min-h-screen bg-background w-full">
         <Sidebar>
           <SidebarHeader className="h-16 flex items-center px-4 border-b">
-            <Link href={user?.role === "admin" ? "/admin" : "/dashboard"} className="flex items-center gap-2 font-bold text-lg text-primary tracking-tight">
+            <Link href={user?.role === "admin" ? "/admin" : "/practice"} className="flex items-center gap-2 font-bold text-lg text-primary tracking-tight">
               <div className="bg-primary text-primary-foreground p-1 rounded">
                 <BookOpen className="h-5 w-5" />
               </div>
-              ExamPrep
+              FedCSQ
             </Link>
           </SidebarHeader>
           <SidebarContent className="py-4">
@@ -95,14 +95,13 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 <DropdownMenuTrigger asChild>
                   <Button variant="ghost" className="h-auto p-0 hover:bg-transparent justify-start">
                     <Avatar className="h-8 w-8 mr-2">
-                      <AvatarImage src={user?.profileImageUrl || ""} />
-                      <AvatarFallback className="bg-primary/10 text-primary">
-                        {user?.firstName?.[0] || user?.username?.[0] || <UserIcon className="h-4 w-4" />}
+                      <AvatarFallback className="bg-primary/10 text-primary text-sm font-semibold">
+                        {displayName[0]?.toUpperCase() || <UserIcon className="h-4 w-4" />}
                       </AvatarFallback>
                     </Avatar>
                     <div className="flex flex-col items-start text-sm">
-                      <span className="font-medium">{user?.firstName || user?.username}</span>
-                      <span className="text-xs text-muted-foreground">{user?.role}</span>
+                      <span className="font-medium">{displayName}</span>
+                      <span className="text-xs text-muted-foreground capitalize">{user?.role || "student"}</span>
                     </div>
                   </Button>
                 </DropdownMenuTrigger>
@@ -125,12 +124,11 @@ export function Layout({ children }: { children: React.ReactNode }) {
           <header className="h-16 flex items-center justify-between px-6 border-b bg-background sticky top-0 z-10 md:hidden">
             <div className="flex items-center gap-2">
               <SidebarTrigger />
-              <span className="font-bold text-primary">ExamPrep</span>
+              <span className="font-bold text-primary">FedCSQ</span>
             </div>
             <Avatar className="h-8 w-8">
-              <AvatarImage src={user?.profileImageUrl || ""} />
-              <AvatarFallback className="bg-primary/10 text-primary">
-                {user?.firstName?.[0] || user?.username?.[0] || <UserIcon className="h-4 w-4" />}
+              <AvatarFallback className="bg-primary/10 text-primary text-sm font-semibold">
+                {displayName[0]?.toUpperCase() || <UserIcon className="h-4 w-4" />}
               </AvatarFallback>
             </Avatar>
           </header>

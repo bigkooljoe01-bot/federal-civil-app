@@ -1,0 +1,38 @@
+(9) New Track Publication
+Correct Answer: B.
+Explanation: Financial Regulation 1011(ii) clarifies: "It is the responsibilty of the
+Sub-Accounting Officer who issued the imprest to verify the receipt voucher particulars.”
+33. What is required to support all imprest payments?
+A. Personal receipts.
+B. Sub Receipts (Treasury Form 10).
+C. Bank transfer confirmations.
+D. Intemal memos.
+Correct Answer: B.
+Explanation: Financial Regulation 1012(b) states: "All imprest payments shall be supported by
+Sub Receipts (Treasury Form 10)."
+34. How often should the cash in the imprest holder's cash book be checked by a senior officer?
+A. Annually.
+B. Monthly.
+C. Regularly, with frequency determined by the Accounting Officer.
+D. Only during surprise inspections.
+Correct Answer: C.
+Explanation: Financial Regulation 1012(e) states: "The cash book shall be balanced regularly,
+ruled off, and the cash on hand regularly checked by a senior officer, who will certify the cash
+book accordingly. Accounting Officers shall issue instructions concerning the frequency of the
+35. What is a key responsibility of imprest holders regarding the use of funds?
+A. They can use other public funds for imprest purposes if needed.
+B. They are responsible for the correctness of vouchers signed by them.
+C. They can delegate their responsibilities without supervision.
+D. They are only responsible for cash, not vouchers.
+Correct Answer: B.
+Explanation: Financial Regulation 1008 states: ‘imprest holders must duly observe al
+regulations regarding the control of expenditure and the disbursement of public money and are
+responsible for the correctness of vouchers signed by them (see Regulation 410). They are also
+responsible for ensuring the early submission of paid vouchers for reimbursement. The imprest
+may be used only for the purpose for which it is issued and Imprest holders shall not use other
+public funds for imprest purposes."
+36. When an imprest is granted, what must the imprest holder do regarding a bank account,
+unless otherwise authorized?
+A. Maintain a personal bank account.
+
+230

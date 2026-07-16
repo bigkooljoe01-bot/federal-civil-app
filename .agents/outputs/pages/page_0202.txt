@@ -1,0 +1,39 @@
+(9) New Track Publication
+Explanation: Financial Regulation 601 states: "All payment entries in the cash book/accounts
+shall be vouched for on one of the prescribed treasury forms. Vouchers are made out in favour
+of the person or persons to whom the money is actually due.”
+22. Can a cheque be raised or cash paid for services for which a voucher has not been raised?
+A. Yes, in urgent cases.
+B. Yes, with special approval.
+C. No, under no circumstances.
+D. Only if the amount is small.
+Correct Answer: C
+Explanation: Financial Regulation 601 states: "Under no circumstances shall a cheque be
+raised or cash paid for services for which a voucher has not been raised.”
+23. How should vouchers be raised for different sub-heads or different services?
+A. A single voucher can cover multiple sub-heads and services.
+B. Separate vouchers shall be raised for separate sub-heads and different services.
+C. Vouchers can be combined if the total amount is small.
+D. Itis at the discretion of the Accounting Officer.
+Correct Answer: B
+Explanation: Financial Regulation 602 states: "Separate vouchers shall be raised for separate
+sub-heads. Separate vouchers shall also be raised for the payment of different services."
+24. What kind of particulars should all vouchers contain?
+A. Only the amount and payee name.
+B. Full particulars such as dates, numbers, quantities, distances, and rates.
+C. A brief description of the service.
+D. Reference to the budget only.
+Correct Answer: B
+Explanation: Financial Regulation 603(i) states: "All vouchers shall contain full particulars of
+each service, such as dates, numbers, quantities, distances and rates, so as to enable them to
+be checked without reference to any other documents and will invariably be supported by
+relevant documents such as local purchase orders, invoices, special letters of authority, time
+sheets, etc.”
+25. Which of the following is NOT an acceptable form of warrant authority to be quoted on
+vouchers for payments?
+A. Provisional General Warrant (P.G.W.).
+B. Supplementary (Contingencies) Warrant (S.C.W.).
+C. Emergency Fund Release (E.FR.).
+D. Development Fund General Warrant (D.F.G.W.).
+Correct Answer: C
+202

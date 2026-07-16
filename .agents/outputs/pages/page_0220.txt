@@ -1,0 +1,76 @@
+(9) New Track Publication
+
+B. A list of outstanding vouchers (Treasury Form 34) and voucher substitute (Treasury Form
+
+72).
+
+C. A summary of the missing vouchers.
+
+D. A request for an extension.
+
+Correct Answer: B.
+
+Explanation: Financial Regulation 810 states: "In the event of all vouchers not being available
+
+to accompany the account, a list of outstanding vouchers (Treasury Form 34) shall be forwarded
+
+and voucher substitute (Treasury Form 72) in (duplicate) inserted.”
+
+95. What information should a voucher substitute contain?
+
+A. Only the amount paid.
+
+B. Month and year of account, payment voucher number, classification, amount paid, and
+
+sufficient details to permit identification of the transaction.
+
+C. The name of the payee.
+
+D. The reason for the missing voucher.
+
+Correct Answer: B.
+
+Explanation: Financial Regulation 810 states: "Voucher substitutes will show month and year of
+
+account and will also contain payment voucher number, classification, amount paid and
+
+sufficient details to permit identification of the transaction.”
+
+96. What register must a Sub-Accounting Officer maintain for outstanding vouchers?
+
+A. A general ledger.
+
+B. A register of outstanding vouchers (Treasury Form 73).
+
+C. A payment log.
+
+D. A daily transaction record.
+
+Correct Answer: B.
+
+Explanation: Financial Regulation 811(i) states: "Sub-Accounting Officer shall maintain a
+
+register of outstanding vouchers (Treasury Form 73) which shall be marked off 11S they are
+
+received.”
+
+97. Who is personally responsible for obtaining acquittal for payments out of public funds until
+
+the relevant payment vouchers are obtained?
+
+A. The Accounting Officer.
+
+B. The Auditor-General.
+
+C. The Sub-Accounting Officer.
+
+D. The Head of Accounts.
+
+Correct Answer: C.
+
+Explanation: Financial Regulation 811(ii) states: “It is the personal responsibility of the
+
+Sub-Accounting Officer to obtain acquittal for the payments out of public funds and this
+
+responsibility exists until he has obtained the relevant payment vouchers (See Regulation 621)."
+220

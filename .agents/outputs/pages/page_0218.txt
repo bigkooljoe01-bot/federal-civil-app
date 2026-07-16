@@ -1,0 +1,38 @@
+(9) New Track Publication
+B. Monthly.
+C. Daily.
+D. Quarterly.
+Correct Answer: C.
+Explanation: Financial Regulation 804 states: "The cash book shall be ruled off and balanced
+daily by the cashier who will enter the cash specifications of the balance in hand in the cash
+book.”
+87. What should be done with cheques held as cash at the close of business?
+A. Kept overnight in the safe.
+B. Paid to the bank or cleared on the next business day.
+C. Reported to the Accounting Officer.
+D. Recorded as outstanding payments.
+Correct Answer: B.
+Explanation: Financial Regulation 804 states: "Cheques held as cash at the close of business
+will be paid to the bank or otherwise cleared on the next business day.”
+88. Can a cheque that has been presented to the bank and returned unpaid be held as cash?
+A. Yes, temporarily.
+B. Yes, with the Accounting Officer's approval.
+C. No, under no circumstances.
+D. Only if the amount is small.
+Correct Answer: C
+Explanation: Financial Regulation 804 states: "In no circumstances may a cheque which has
+been presented to the bank and returned unpaid be held as cash.”
+89. Who signs the cash book at the end of each month to certify the correctness of entries and
+cash balance?
+A. The cashier.
+B. The Head of Accounts.
+C. The Sub-Accounting Officer.
+D. The Accounting Officer.
+Correct Answer: C
+Explanation: Financial Regulation 805 states: "The cash book shall be signed at the end of
+each month by the Sub Accounting Officer whose signature will be taken as certifying the
+correctness of the entries and cash balance.”
+90. What documents must be attached to the cash book where a bank account is maintained?
+A. Only the bank statement.
+B. A bank reconciliation statement and certified bank statement.
+218

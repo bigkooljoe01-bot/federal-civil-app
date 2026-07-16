@@ -1,0 +1,37 @@
+(9) New Track Publication
+C. Alist of all transactions.
+D. A copy of all cheques issued.
+Correct Answer: B.
+Explanation: Financial Regulation 806 states: "Where a bank account is maintained, a bank
+reconciliation statement and certified bank statement as at the last business day of the month
+shall be attached to the cash book."
+91. How should unpresented cheques that become stale after 6 months be handled?
+A. Re-issued immediately.
+B. Written back in the Cash Book after written confirmation of non-payment from the bank.
+C. Reported as a loss of funds.
+D. Forwarded to the Accountant-General.
+Correct Answer: B.
+Explanation: Financial Regulation 807(a) states: "Unpresented cheques which become stale
+after 6 months should be written back in the Cash Book after written confirmation of
+non-payment from the bank."
+92. How often should Sub-Accounting Officers submit their accounts?
+A. By the seventh day of the following month.
+B. By the fourteenth day of the following month.
+C. By the end of the following month.
+D. Quarterly.
+Correct Answer: B.
+Explanation: Financial Regulation 808(i) states: "Sub-Accounting Officers shall submit their
+accounts by the fourteenth day of the following month or within such other period as may be
+prescribed by the Accountant-General."
+93. What is the Monthly Consolidated Account also known as?
+A. The Ledger.
+B. The Financial Statement.
+C. Transcripts.
+D. The Audit Report.
+Correct Answer: C
+Explanation: Financial Regulation 809 states: "The Monthly Consolidated Account otherwise
+known as "Transcripts" will consist of..."
+94. What should be forwarded if all vouchers are not available to accompany the monthly
+account?
+A. A formal apology.
+219

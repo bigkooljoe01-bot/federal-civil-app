@@ -1,0 +1,39 @@
+(9) New Track Publication
+Correct Answer: B
+Explanation: Financial Regulation 114(b) states that one of the duties of the Head of Finance
+and Accounts is to ensure “adequate supervision of the disbursement of funds and proper
+monitoring and accounting for revenue.”
+87. What is the name of the form used by a Revenue Collector to pay in collections to a
+Sub-Accounting Officer?
+A. Treasury Form 15
+B. Treasury Form 15A
+C. Treasury Book 6
+D. Treasury Book 6A
+Correct Answer: B
+Explanation: Financial Regulation 209(i) mentions the Revenue Collector's paying-in Form
+(Treasury Form 15A).
+88. What is the function of the duplicate receipt in the monthly accounts of a Sub-Accounting
+Officer?
+A. Itis discarded after the transaction.
+B. Itis used as a cash book voucher.
+C. Itis sent to the Accountant-General.
+D. Itis given to the payer.
+Correct Answer: B
+Explanation: Financial Regulation 206(ii) states that the duplicate receipt shall be used as a
+cash book voucher.
+89. When a Revenue Collector pays in his collections, what must he insert in the paying-in form
+(Treasury Form 15A)?
+A. The name of the payer
+B. The Head and Sub-Head to which the collections are to be credited
+C. The date of the collection
+D. The name of the receiving cashier
+[Correct Answer: B
+Explanation: Financial Regulation 209(i) states that the Revenue Collector will insert the Head
+and subhead to which the collections are to be credited.
+90. Who is responsible for verifying the Head and subhead inserted by the Revenue Collector
+on the paying-in form?
+A. The Accountant-General
+B. The Accounting Officer
+C. The receiving cashier
+D. The Head of Internal Audit
+166

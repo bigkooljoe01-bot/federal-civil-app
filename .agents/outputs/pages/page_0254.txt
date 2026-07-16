@@ -1,0 +1,38 @@
+(9) New Track Publication
+26. Which document must advances payment vouchers be recorded in, as per Financial
+Regulation 1419?
+A) General Ledger
+B) Cash Book
+C) Vote Book
+D) Treasury Journal
+Correct Answer: C
+Explanation: Financial Regulation 1419 specifies "Vouchers to be recorded in Vote Book".
+27. Who is responsible for maintaining "Advances records" according to Financial Regulation
+1404?
+A) The Accountant-General
+B) The Auditor-General
+C) The officer in charge of advances
+D) The Minister of Finance
+Correct Answer: C
+Explanation: Although the regulation specifies "Advances records,” implicitly, the officer
+managing advances would be responsible.
+28. What is a key characteristic of a "personal advance" as implied by Financial Regulation
+1401?
+A) Itis usually for official purposes only
+B) Itis given to individual officers
+C) It does not require repayment
+D) Itis a non-interest bearing loan
+Correct Answer: B
+Explanation: "Personal advances" typically imply advances given directly to individuals
+29. What distinguishes “non-personal advances" from "personal advances” based on the
+regulations?
+A) Non-personal advances are for capital projects
+B) Non-personal advances are for the opening of specific accounts, not individuals
+C) Non-personal advances do not need to be accounted for
+D) Non-personal advances are always larger in value
+Correct Answer: B
+Explanation: Financial Regulation 1402 explicitly mentions "Non-personal Account, Opening of"
+differentiating it from personal advances
+30. If an officer has an "Outstanding balance" on an advance, what is the expected action from
+them?
+254

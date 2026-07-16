@@ -1,0 +1,39 @@
+(9) New Track Publication
+Explanation: Financial Regulation 903(ii) states: "Adjustments shall be submitted on Treasury
+Form 23 in quadruplicate, or as otherwise directed.”
+5. In the Office of the Accountant-General of the Federation (OAGF), what type of journal
+voucher is used for adjustments and transfers made before the "Below-the-line Statement" is
+extracted?
+A. Principal Journal Voucher (PJV)
+B. Supplementary Journal Voucher (SJV)
+C. Adjustment Voucher (TF 23)
+D. Material Expense Statement (M.E.S.)
+Correct Answer: B.
+Explanation: Financial Regulation 904(i) states: "...the SN and PJV are used in the Office of the
+Accountant General of the Federation (OAGF) for the Preparation of Consolidated accounts,
+While SNs are used for all adjustments and transfers that are made before the “Below the-line
+Statement” is extracted...”
+6. For what primary reason are Principal Journal Vouchers (PJVs) prepared in the OAGF?
+A. To adjust differences between ministry transcripts and bank statements.
+B. To correct misclassification of accounts detected by the main accounts.
+C. To reclassify accounts before the Trial Balance is prepared.
+D. To record daily cash transactions.
+Correct Answer: B.
+Explanation: Financial Regulation 904(ii)(a) states that PJVs are prepared “to correct
+misclassification of accounts detected by the main accounts.”
+7. What information must an adjustment voucher clearly indicate?
+A. Only the amount of the adjustment.
+B. The reason for the adjustment and full reference to the original debit or credit.
+C. The name of the officer who prepared the voucher.
+D. The date of the next audit.
+Correct Answer: B.
+Explanation: Financial Regulation 905 states: "Adjustment vouchers must clearly indicate the
+reason for the adjustment, and must make full reference to the original debit or credit being
+adjusted...”
+8. When adjustments affect expenditure sub-heads in a current financial year, what must be
+done with the amounts (debit or credit)?
+A. They are ignored until the next financial year.
+B. They must be entered in the vote book and the relevant vouchers stamped.
+C. They are only recorded in the main ledger.
+D. They are sent directly to the Auditor-General.
+223

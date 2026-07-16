@@ -1,0 +1,38 @@
+(9) New Track Publication
+D. The Internal Auditor should ignore it if it is a small error.
+Correct Answer: C
+Explanation: Financial Regulation 1703(e) requires the Intemal Auditor to communicate such
+discoveries to the Accounting Officer in a “management letter.”
+14. What is the primary purpose of the Internal Audit Unit?
+A. To perform administrative tasks for the department.
+B. To provide an independent appraisal of accounting, financial, and other controls.
+C. To sign off on all procurement contracts.
+D. To manage the department's human resources.
+Correct Answer: B
+Explanation: The policy of internal audit and its duties, as described in Chapter 17, are
+centered on providing an independent appraisal of financial and other controls to the Accounting
+Officer.
+15. To whom does the Internal Auditor submit periodic audit reports?
+A. The Accountant-General.
+B. The Head of Department.
+C. The Accounting Officer.
+D. The Minister of Finance.
+Correct Answer: C
+Explanation: Financial Regulation 1706 explicitly states that periodic audit reports are
+submitted to the Accounting Officer.
+16. What is the relationship between the Internal Auditor and the staff whose accounts they are
+auditing?
+A. The Internal Auditor is superior to the staff.
+B. The Internal Auditor is subordinate to the staff.
+C. The Internal Auditor should be independent of the staff.
+D. The Internal Auditor works under the supervision of the staff.
+Correct Answer: C
+Explanation: The entire purpose of internal audit is to provide an independent appraisal, which
+implies independence from the staff whose work is being audited.
+17. What type of register must be maintained by the Head of the Internal Audit Unit?
+A. A staff leave register.
+B. A progress register.
+C. A payroll register.
+D. A procurement register.
+Correct Answer: B
+276

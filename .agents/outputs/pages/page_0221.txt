@@ -1,0 +1,34 @@
+(9) New Track Publication
+98. Who brings to account all transactions conducted by Sub-Accounting Officers in his main
+and subsidiary ledgers for a self-accounting unit?
+A. The Accountant-General.
+B. The Director of Finance and Accounts.
+C. The Head of Accounts of a self-accounting unit.
+D. The Auditor-General.
+Correct Answer: C.
+Explanation: Financial Regulation 812 states: “The Head of Accounts of a self accounting unit
+will bring to account in his main and subsidiary ledgers all transactions conducted by his
+Sub-Accounting Officers and shall submit the consolidated account of the unit to the Accountant
+General as in Financial Regulation 808."
+99. What is the purpose of reconciling outstanding items in the Bank Reconciliation Statement
+expeditiously?
+A. To delay payments.
+B. To ensure the effectiveness of the statement.
+C. To reduce bank charges.
+D. To identify new revenue sources.
+Correct Answer: B.
+Explanation: Financial Regulation 807(c) states: "Prompt action should always be taken to
+obtain bank advice to confirm the various entries in the bank statement as the effectiveness of
+the Bank Reconciliation Statement lies in the prompt clearance of outstanding items."
+100. What kind of payments are Revenue and Expenditure vouchers submitted in duplicate to
+Sub-Accounting Officers?
+A. Only for large amounts.
+B. All types of payments unless otherwise directed by the Accountant-General.
+C. Only for inter-ministerial transfers.
+D. Only for capital projects.
+Correct Answer: B.
+Explanation: Financial Regulation 803 states: "Revenue Expenditure, and Below-the-line
+vouchers will be submitted to Sub-Accounting Officers in duplicate, except as May be otherwise
+directed from time to time by the Accountant- General."
+
+221

@@ -1,0 +1,38 @@
+(9) New Track Publication
+Explanation: Financial Regulation 603(ii)(d) lists the acceptable forms of warrant authorities.
+"Emergency Fund Release (E.F.R.)" is not listed.
+26. What is strictly prohibited when preparing payment vouchers?
+A. Using ball pens.
+B. Writing in pencil.
+C. Writing totals in figures.
+D. Using typewriters.
+Correct Answer: B
+Explanation: Financial Regulation 604(a) states: "On no account shall vouchers be written in
+pencil."
+27. What should be drawn immediately before and after the Naira (N) figure when it appears in
+words on a voucher?
+A. A single thin horizontal line.
+B. A double thick horizontal line.
+C. A single thick horizontal line.
+D. No line is required.
+Correct Answer: C
+Explanation: Financial Regulation 604(c) states: "A single thick horizontal line shall be drawn
+immediately before, and immediately after the Naira (N) figure where it appears in word."
+28. Who is responsible for maintaining a payment voucher register and confirming the accuracy
+of entries before signing a voucher?
+A. The Sub-Accounting Officer.
+B. The Head of Finance and Accounts.
+C. The Officer controlling the vote.
+D. The Internal Auditor.
+Correct Answer: C
+Explanation: Financial Regulation 605 states: "Officer controlling vote shall maintain a payment
+voucher register... Under no circumstances shall he sign a voucher until it has been entered in
+the register and has accordingly confirmed the accuracy of the entries therein."
+29. Which copies of payment vouchers should be signed in full in ink or ball pens by the
+certifying officer and the payee?
+A. All copies.
+B. Only the duplicate and triplicate copies.
+C. Only the originals.
+D. Only the copy was sent to the Auditor-General.
+Correct Answer: C
+203

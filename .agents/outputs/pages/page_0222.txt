@@ -1,0 +1,38 @@
+(9) New Track Publication
+Section D
+Part 1: Financial Regulations: Adjustments
+1. Question: What is the primary purpose of adjustments in financial accounting, as described in
+Chapter 9?
+A. To increase or decrease cash on hand.
+B. To make transfers between accounts without actual cash receipt or payment.
+C. To record daily petty cash transactions.
+D. To prepare annual financial statements for audit.
+Correct Answer: B.
+Explanation: Financial Regulation 901 states: "Adjustments are effected by means of Journal
+entries which enable transfers to be made from one account to another without actual receipt or
+payment of cash.”
+2. Which of the following is an example of a transaction that would typically be handled through
+an adjustment?
+A. Payment for a new office supply order.
+B. Correction of accounting errors arising from misclassifications.
+C. Receipt of monthly revenue from a government agency.
+D. Disbursement of salaries to staff.
+Correct Answer: B.
+Explanation: Financial Regulation 901 lists "correction of accounting errors arising from
+misclassifications” as an example of an adjustment.
+3. Which Treasury Form (TF) is primarily used for inter-ministerial transactions?
+A. TF 15
+B.TF72
+C.TF23
+D. TF 34
+Correct Answer: C
+Explanation: Financial Regulation 903(i) states: "The Adjustment Voucher (TF 23) which is
+designed to adjust inter-ministerial transactions is mostly used in - ministries, extra-ministerial
+offices and other arms of government.”
+4. How many copies of the Adjustment Voucher (TF 23) are typically submitted?
+A. One (original)
+B. Two (original and duplicate)
+C. Three (original and two copies)
+D. Four (quadruplicate)
+Correct Answer: D.
+222

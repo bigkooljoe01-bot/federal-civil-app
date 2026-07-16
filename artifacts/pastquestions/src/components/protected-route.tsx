@@ -1,5 +1,5 @@
 import React from "react";
-import { useAuth } from "@workspace/replit-auth-web";
+import { useLocalAuth } from "@/hooks/use-local-auth";
 import { Redirect } from "wouter";
 import { useGetMe } from "@workspace/api-client-react";
 import { Loader2 } from "lucide-react";
@@ -13,7 +13,7 @@ export function ProtectedRoute({
   adminOnly?: boolean;
   [key: string]: any;
 }) {
-  const { isAuthenticated, isLoading, login } = useAuth();
+  const { isAuthenticated, isLoading } = useLocalAuth();
   const { data: user, isLoading: userLoading } = useGetMe({
     query: {
       enabled: isAuthenticated,
@@ -29,12 +29,11 @@ export function ProtectedRoute({
   }
 
   if (!isAuthenticated) {
-    login();
-    return null;
+    return <Redirect to="/login" />;
   }
 
   if (adminOnly && user?.role !== "admin") {
-    return <Redirect to="/dashboard" />;
+    return <Redirect to="/practice" />;
   }
 
   return <Component {...rest} />;

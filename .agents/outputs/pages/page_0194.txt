@@ -1,0 +1,37 @@
+(9) New Track Publication
+Correct Answer: B
+Explanation: Financial Regulation 409 states: "Where a loss of public fund is revealed, action
+shall be taken in accordance with Chapter 25 of these Regulations.”
+95. What is the definition of "Expenditure Classification"?
+A. Grouping expenses by department.
+B. Categorizing expenses according to the Estimates.
+C. Listing all payments made.
+D. Tracking cash flows.
+Correct Answer: B
+Explanation: Financial Regulation 417 implies that expenditure classification is the act of
+categorizing expenses according to the approved Estimates.
+96. What is the primary purpose of the Departmental Vote Book?
+A. To record all incoming revenue.
+B. To monitor and control expenditure against budget allocations.
+C. To track staff salaries.
+D. To store financial reports.
+Correct Answer: B
+Explanation: Financial Regulation 402(i) clearly outlines the purpose of the vote book as
+monitoring expenditure against the Estimates.
+97. What is the consequence if an officer controlling a vote incurs expenditure without proper
+authority?
+A. The expenditure will be absorbed by the Ministry.
+B. The officer will be held pecuniarily responsible for his actions.
+C. The Accountant-General will rectify the error.
+D. The Minister of Finance will issue a new warrant.
+Correct Answer: B
+Explanation: Financial Regulation 301 (which is referenced in 401) states: "Any officer controls
+a vote, or part thereof, who incurs expenditure without such authority does so on his sole
+responsibility and will consequently be held peculiarly responsible for his actions.”
+98. When should liabilities and commitments be entered into the vote book?
+A. At the end of the financial year.
+B. As soon as they are known or incurred.
+C. Only when actual payment is made.
+D. Quarterly.
+Correct Answer: B
+194
