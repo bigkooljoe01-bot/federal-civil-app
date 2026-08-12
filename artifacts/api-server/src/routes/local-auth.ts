@@ -30,7 +30,15 @@ router.post('/auth/register', async (req: Request, res: Response) => {
     return;
   }
 
+  const { email } = req.body || {};
   const clean = username.trim().toLowerCase();
+  const emailClean = typeof email === 'string' && email.trim() ? email.trim().toLowerCase() : null;
+
+  // Validate email format if provided
+  if (emailClean && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailClean)) {
+    res.status(400).json({ error: 'Please enter a valid email address' });
+    return;
+  }
 
   // Check if username taken
   const [existing] = await db
@@ -48,7 +56,7 @@ router.post('/auth/register', async (req: Request, res: Response) => {
 
   const [user] = await db
     .insert(usersTable)
-    .values({ replitId, username: clean, passwordHash, role: 'student' })
+    .values({ replitId, username: clean, passwordHash, email: emailClean, role: 'student' })
     .returning();
 
   const sid = await createSession({
