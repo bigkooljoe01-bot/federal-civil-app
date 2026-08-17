@@ -67,12 +67,12 @@ export function useLocalAuth() {
     return data.error || "Login failed";
   }, []);
 
-  const register = useCallback(async (username: string, password: string): Promise<string | null> => {
+  const register = useCallback(async (username: string, email: string, password: string): Promise<string | null> => {
     const r = await fetch("/api/auth/register", {
       method: "POST",
       credentials: "include",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ username, password }),
+      body: JSON.stringify({ username, email, password }),
     });
     const data = await r.json();
     if (r.ok) {

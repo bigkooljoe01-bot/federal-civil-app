@@ -1,7 +1,6 @@
 import { Router, type IRouter, type Request, type Response } from 'express';
 import bcrypt from 'bcryptjs';
-import crypto from 'crypto';
-import { db, usersTable, sessionsTable } from '@workspace/db';
+import { db, usersTable } from '@workspace/db';
 import { eq } from 'drizzle-orm';
 import { clearSession, createSession, getSessionId, SESSION_COOKIE, SESSION_TTL } from '../lib/auth';
 
@@ -34,8 +33,13 @@ router.post('/auth/register', async (req: Request, res: Response) => {
   const clean = username.trim().toLowerCase();
   const emailClean = typeof email === 'string' && email.trim() ? email.trim().toLowerCase() : null;
 
-  // Validate email format if provided
-  if (emailClean && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailClean)) {
+  if (!emailClean) {
+    res.status(400).json({ error: 'Email address is required' });
+    return;
+  }
+
+  // Validate email format
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailClean)) {
     res.status(400).json({ error: 'Please enter a valid email address' });
     return;
   }
@@ -60,7 +64,7 @@ router.post('/auth/register', async (req: Request, res: Response) => {
     .returning();
 
   const sid = await createSession({
-    user: { id: user.replitId, email: null, firstName: null, lastName: null, profileImageUrl: null },
+    user: { id: user.replitId, email: emailClean, firstName: null, lastName: null, profileImageUrl: null },
     access_token: '',
   });
 

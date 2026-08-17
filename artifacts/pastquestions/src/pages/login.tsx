@@ -30,7 +30,7 @@ export default function Login() {
 
     const err = mode === "login"
       ? await login(username.trim(), password)
-      : await register(username.trim(), password);
+      : await register(username.trim(), email.trim(), password);
 
     setLoading(false);
 
@@ -82,6 +82,23 @@ export default function Login() {
                   className="h-11"
                 />
               </div>
+
+              {mode === "register" && (
+                <div className="space-y-1.5">
+                  <Label htmlFor="email">Email address</Label>
+                  <Input
+                    id="email"
+                    type="email"
+                    autoComplete="email"
+                    placeholder="you@example.com"
+                    value={email}
+                    onChange={e => setEmail(e.target.value)}
+                    required
+                    disabled={loading}
+                    className="h-11"
+                  />
+                </div>
+              )}
 
               <div className="space-y-1.5">
                 <Label htmlFor="password">Password</Label>
