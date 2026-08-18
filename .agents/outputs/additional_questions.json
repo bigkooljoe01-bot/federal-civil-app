@@ -1,0 +1,604 @@
+[
+  {
+    "text": "Which of the following is one of the four globally cherished Public Service Values identified in the administrative procedures guide?",
+    "subjectId": 11,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "Democratic values"},
+      {"letter": "B", "text": "Commercial values"},
+      {"letter": "C", "text": "Partisan values"},
+      {"letter": "D", "text": "Competitive values"}
+    ],
+    "correctLetter": "A",
+    "explanation": "The guide identifies Democratic, Professional, Ethical and People Values."
+  },
+  {
+    "text": "How is remuneration for part-time members of government agency boards described in the guide?",
+    "subjectId": 11,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "It is a full-time salary"},
+      {"letter": "B", "text": "It is guided by subsisting government circulars"},
+      {"letter": "C", "text": "It is set by each board member"},
+      {"letter": "D", "text": "It is determined by the Chief Executive Officer"}
+    ],
+    "correctLetter": "B",
+    "explanation": "The guide says remuneration of part-time board members is guided by subsisting government circulars."
+  },
+  {
+    "text": "What is the approved sitting allowance for a member of a Category C agency in the guide?",
+    "subjectId": 11,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "N75,000"},
+      {"letter": "B", "text": "N65,000"},
+      {"letter": "C", "text": "N55,000"},
+      {"letter": "D", "text": "N120,000"}
+    ],
+    "correctLetter": "C",
+    "explanation": "The guide lists N55,000 as the approved sitting allowance for a Category C member."
+  },
+  {
+    "text": "What quality are board members expected to bring to the board when they render service to the nation?",
+    "subjectId": 11,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "Political connections"},
+      {"letter": "B", "text": "Financial wealth"},
+      {"letter": "C", "text": "Qualities that have distinguished them in their spheres of service life"},
+      {"letter": "D", "text": "An ability to raise funds"}
+    ],
+    "correctLetter": "C",
+    "explanation": "The administrative procedures guide says members should bring the qualities that distinguished them in their spheres of service life."
+  },
+  {
+    "text": "Which expectation of government and the public for public servants is stated in the guide?",
+    "subjectId": 11,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "To demonstrate democratic, professional, ethical and people values"},
+      {"letter": "B", "text": "To belong to the ruling party"},
+      {"letter": "C", "text": "To seek favours for family and friends"},
+      {"letter": "D", "text": "To obtain a high salary"}
+    ],
+    "correctLetter": "A",
+    "explanation": "The guide describes democratic, professional, ethical and people values as a public-service expectation."
+  },
+  {
+    "text": "What is a key role of the chairperson in controlling and conducting a board meeting?",
+    "subjectId": 11,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "Allow one member to dominate"},
+      {"letter": "B", "text": "Ensure that appropriate discussion takes place and relevant decisions are made"},
+      {"letter": "C", "text": "Give only the chairperson's opinion"},
+      {"letter": "D", "text": "Postpone all difficult decisions"}
+    ],
+    "correctLetter": "B",
+    "explanation": "The guide describes the chairperson as a facilitator who ensures appropriate discussion and relevant decisions."
+  },
+  {
+    "text": "Which of the following are part-time board members not entitled to solely because of their appointment?",
+    "subjectId": 11,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "Sitting allowance"},
+      {"letter": "B", "text": "An official vehicle"},
+      {"letter": "C", "text": "An opportunity to serve"},
+      {"letter": "D", "text": "Attendance at meetings"}
+    ],
+    "correctLetter": "B",
+    "explanation": "The guide states that part-time board membership does not entitle members to a permanently allocated official vehicle."
+  },
+  {
+    "text": "Which document is identified as codifying public-service values, ethics and ethos?",
+    "subjectId": 11,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "The Nigerian Labour Law"},
+      {"letter": "B", "text": "The Public Service Rules"},
+      {"letter": "C", "text": "The Companies and Allied Matters Act"},
+      {"letter": "D", "text": "The Electoral Act only"}
+    ],
+    "correctLetter": "B",
+    "explanation": "The guide names the Public Service Rules, Financial Regulations and operational guidelines among the documents that codify public-service values and procedures."
+  },
+  {
+    "text": "What is a key responsibility of a board in relation to senior staff?",
+    "subjectId": 11,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "Day-to-day supervision of every officer"},
+      {"letter": "B", "text": "Approval of the appointment or promotion of senior staff"},
+      {"letter": "C", "text": "Firing all senior staff without procedure"},
+      {"letter": "D", "text": "Setting personal allowances for staff"}
+    ],
+    "correctLetter": "B",
+    "explanation": "The guide lists approval of appointment or promotion of senior staff as a board responsibility."
+  },
+  {
+    "text": "Which government office is mentioned as an authority for clarifying grey areas in conflicts between a board or council and a CEO?",
+    "subjectId": 11,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "The Ministry of Finance"},
+      {"letter": "B", "text": "The Office of the Secretary to the Government of the Federation"},
+      {"letter": "C", "text": "The Central Bank of Nigeria"},
+      {"letter": "D", "text": "The Bureau of Public Procurement"}
+    ],
+    "correctLetter": "B",
+    "explanation": "The guide says the Office of the SGF is available for clarification of grey areas in board and CEO relationships."
+  },
+  {
+    "text": "How does the administrative procedures guide describe the relationship between a sector minister and a CEO?",
+    "subjectId": 11,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "The minister is the CEO's personal assistant"},
+      {"letter": "B", "text": "The CEO provides technical advice to the minister"},
+      {"letter": "C", "text": "The minister has no relationship with the CEO"},
+      {"letter": "D", "text": "The CEO reports only to private shareholders"}
+    ],
+    "correctLetter": "B",
+    "explanation": "The guide classifies the relationship as including the CEO providing technical advice to the sector minister."
+  },
+  {
+    "text": "What is the maximum number of annual sittings stated in the guide for a board or council?",
+    "subjectId": 11,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "Two"},
+      {"letter": "B", "text": "Three"},
+      {"letter": "C", "text": "Four"},
+      {"letter": "D", "text": "Six"}
+    ],
+    "correctLetter": "C",
+    "explanation": "The guide references the applicable circular and states that the maximum number of sittings per year is four."
+  },
+  {
+    "text": "When a board member has a conflict of interest, what action does the guide require?",
+    "subjectId": 11,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "Conceal the interest"},
+      {"letter": "B", "text": "Disclose the nature of the interest in writing to the board"},
+      {"letter": "C", "text": "Vote twice on the matter"},
+      {"letter": "D", "text": "Ask the CEO to decide privately"}
+    ],
+    "correctLetter": "B",
+    "explanation": "The guide says a member should disclose in writing the nature of a conflict of interest."
+  },
+  {
+    "text": "What should a board member do when a matter concerns their declared conflict of interest?",
+    "subjectId": 11,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "Influence other members covertly"},
+      {"letter": "B", "text": "Refrain from influencing members and participating in the conflicted decision"},
+      {"letter": "C", "text": "Chair the discussion"},
+      {"letter": "D", "text": "Approve the matter alone"}
+    ],
+    "correctLetter": "B",
+    "explanation": "The guide requires a member in conflict to refrain from influencing members through covert or overt means."
+  },
+  {
+    "text": "Which responsibility is reserved for the CEO rather than the board or council?",
+    "subjectId": 11,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "Approval of the annual budget"},
+      {"letter": "B", "text": "Opening and closing bank accounts"},
+      {"letter": "C", "text": "Day-to-day administration of the organisation"},
+      {"letter": "D", "text": "Approval of strategic policy"}
+    ],
+    "correctLetter": "C",
+    "explanation": "The guide lists day-to-day administration of the organisation as a matter reserved for the CEO."
+  },
+  {
+    "text": "What is one of the three classifications of a sector minister's relationship with a board or council?",
+    "subjectId": 11,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "Ministerial support"},
+      {"letter": "B", "text": "Private ownership"},
+      {"letter": "C", "text": "Commercial lending"},
+      {"letter": "D", "text": "Party mobilisation"}
+    ],
+    "correctLetter": "A",
+    "explanation": "The guide lists Ministerial Support, Business Planning and Policy Advice as classifications."
+  },
+  {
+    "text": "What should the chairperson do after the minutes of a meeting have been approved?",
+    "subjectId": 11,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "Destroy the minutes"},
+      {"letter": "B", "text": "Sign the minutes"},
+      {"letter": "C", "text": "Send the minutes to a political party"},
+      {"letter": "D", "text": "Rewrite every decision"}
+    ],
+    "correctLetter": "B",
+    "explanation": "The guide lists signing the minutes after approval as one of the chairperson's functions."
+  },
+  {
+    "text": "What is the role of the secretary during a board meeting when no opinion is requested?",
+    "subjectId": 11,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "Speak on every policy issue"},
+      {"letter": "B", "text": "Restrict comments to procedural matters"},
+      {"letter": "C", "text": "Vote on behalf of the chairperson"},
+      {"letter": "D", "text": "End the meeting without notice"}
+    ],
+    "correctLetter": "B",
+    "explanation": "The guide says the secretary should resist speaking on matters other than procedure unless asked for an opinion."
+  },
+  {
+    "text": "Who holds boards and councils accountable for their performance according to the guide?",
+    "subjectId": 11,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "The sector ministers"},
+      {"letter": "B", "text": "Private contractors"},
+      {"letter": "C", "text": "Individual board members only"},
+      {"letter": "D", "text": "The media"}
+    ],
+    "correctLetter": "A",
+    "explanation": "The guide states that sector ministers hold boards and councils accountable for performance."
+  },
+  {
+    "text": "Who was declared the winner of Nigeria's 2023 presidential election in the uploaded current-affairs guide?",
+    "subjectId": 13,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "Atiku Abubakar"},
+      {"letter": "B", "text": "Peter Obi"},
+      {"letter": "C", "text": "Bola Ahmed Tinubu"},
+      {"letter": "D", "text": "Rabiu Kwankwaso"}
+    ],
+    "correctLetter": "C",
+    "explanation": "The guide identifies Bola Ahmed Tinubu as the declared winner of the 2023 presidential election."
+  },
+  {
+    "text": "What major economic policy was announced by President Bola Tinubu on inauguration day in May 2023?",
+    "subjectId": 13,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "Revaluation of the naira"},
+      {"letter": "B", "text": "Removal of the fuel subsidy"},
+      {"letter": "C", "text": "Introduction of a new currency"},
+      {"letter": "D", "text": "A ban on all imports"}
+    ],
+    "correctLetter": "B",
+    "explanation": "The guide identifies the announcement of fuel-subsidy removal as a major inauguration-day policy."
+  },
+  {
+    "text": "What was the primary aim of the CBN foreign-exchange reform described in the uploaded guide?",
+    "subjectId": 13,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "Creating more parallel markets"},
+      {"letter": "B", "text": "Unifying official and parallel market exchange rates"},
+      {"letter": "C", "text": "Pegging the naira permanently to the US dollar"},
+      {"letter": "D", "text": "Stopping all foreign exchange transactions"}
+    ],
+    "correctLetter": "B",
+    "explanation": "The guide describes the reform as aimed at unifying official and parallel-market exchange rates."
+  },
+  {
+    "text": "Which Nigerian state was associated with the deadly Christmas Day attacks of December 2023 mentioned in the guide?",
+    "subjectId": 13,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "Plateau State"},
+      {"letter": "B", "text": "Lagos State"},
+      {"letter": "C", "text": "Enugu State"},
+      {"letter": "D", "text": "Kebbi State"}
+    ],
+    "correctLetter": "A",
+    "explanation": "The guide refers to the December 2023 attacks in Plateau State."
+  },
+  {
+    "text": "What significant achievement did Nigeria's women's basketball team, D'Tigress, accomplish in 2025?",
+    "subjectId": 13,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "They won their first AfroBasket title"},
+      {"letter": "B", "text": "They won their fifth consecutive FIBA Women's AfroBasket title"},
+      {"letter": "C", "text": "They qualified for the Olympics for the first time"},
+      {"letter": "D", "text": "They won the FIFA Women's World Cup"}
+    ],
+    "correctLetter": "B",
+    "explanation": "The guide says D'Tigress won a fifth consecutive FIBA Women's AfroBasket title in 2025."
+  },
+  {
+    "text": "The March 2024 kidnapping of nearly 400 schoolchildren mentioned in the guide occurred in which state?",
+    "subjectId": 13,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "Borno State"},
+      {"letter": "B", "text": "Katsina State"},
+      {"letter": "C", "text": "Kaduna State"},
+      {"letter": "D", "text": "Sokoto State"}
+    ],
+    "correctLetter": "C",
+    "explanation": "The guide refers to the school kidnapping in Kaduna State."
+  },
+  {
+    "text": "Which major infrastructure project was commissioned to improve Nigeria's refining capacity?",
+    "subjectId": 13,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "The Dangote Petroleum Refinery"},
+      {"letter": "B", "text": "The Kaduna Refinery"},
+      {"letter": "C", "text": "The Warri Refinery"},
+      {"letter": "D", "text": "The Calabar Refinery"}
+    ],
+    "correctLetter": "A",
+    "explanation": "The guide identifies the Dangote Petroleum Refinery as the major refining-capacity project."
+  },
+  {
+    "text": "What did Nigeria's Electricity Act 2023 allow states to do?",
+    "subjectId": 13,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "Fully privatise the entire power sector"},
+      {"letter": "B", "text": "Operate and regulate their own electricity markets within the law"},
+      {"letter": "C", "text": "Centralise all generation under one federal body"},
+      {"letter": "D", "text": "End electricity regulation"}
+    ],
+    "correctLetter": "B",
+    "explanation": "The guide describes the Act as giving states authority to operate and regulate electricity markets."
+  },
+  {
+    "text": "Who was appointed National Security Adviser by President Tinubu in 2023?",
+    "subjectId": 13,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "Nuhu Ribadu"},
+      {"letter": "B", "text": "Mohammed Babagana Monguno"},
+      {"letter": "C", "text": "Ali Modu Sheriff"},
+      {"letter": "D", "text": "Taoreed Lagbaja"}
+    ],
+    "correctLetter": "A",
+    "explanation": "The uploaded guide identifies Nuhu Ribadu as the NSA appointed in 2023."
+  },
+  {
+    "text": "Who was appointed Chief of Defence Staff when President Tinubu appointed new service chiefs in July 2023?",
+    "subjectId": 13,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "Taoreed Lagbaja"},
+      {"letter": "B", "text": "Emmanuel Ogalla"},
+      {"letter": "C", "text": "Hassan Abubakar"},
+      {"letter": "D", "text": "Christopher Musa"}
+    ],
+    "correctLetter": "D",
+    "explanation": "The guide identifies Major General Christopher Musa as the Chief of Defence Staff appointed in July 2023."
+  },
+  {
+    "text": "What was the major legal setback faced by Nnamdi Kanu in 2024 according to the uploaded guide?",
+    "subjectId": 13,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "The Supreme Court dismissed all charges"},
+      {"letter": "B", "text": "The Court of Appeal upheld his acquittal"},
+      {"letter": "C", "text": "The Supreme Court overturned a Court of Appeal decision that dismissed the charges"},
+      {"letter": "D", "text": "He received a presidential pardon"}
+    ],
+    "correctLetter": "C",
+    "explanation": "The guide identifies the Supreme Court's reversal of the Court of Appeal decision as the setback."
+  },
+  {
+    "text": "What hashtag did the guide identify as being used during protests against bad governance in August and September 2024?",
+    "subjectId": 13,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "#BringBackOurGirls"},
+      {"letter": "B", "text": "#EndSARS"},
+      {"letter": "C", "text": "#EndBadGovernance"},
+      {"letter": "D", "text": "#FuelSubsidyMustGo"}
+    ],
+    "correctLetter": "C",
+    "explanation": "The uploaded current-affairs section identifies #EndBadGovernance."
+  },
+  {
+    "text": "What major reason did the guide give for Nigeria's focus on non-oil growth?",
+    "subjectId": 13,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "A decrease in oil production only"},
+      {"letter": "B", "text": "The need to diversify the economy and reduce dependence on oil"},
+      {"letter": "C", "text": "A new ban on oil exploration"},
+      {"letter": "D", "text": "A permanent fall in global oil demand"}
+    ],
+    "correctLetter": "B",
+    "explanation": "The guide links non-oil growth to economic diversification and reduced dependence on oil."
+  },
+  {
+    "text": "Which Nigerian women's football team defended its WAFCON title in 2025, according to the uploaded guide?",
+    "subjectId": 13,
+    "year": 2025,
+    "topic": "Uploaded document",
+    "options": [
+      {"letter": "A", "text": "The Super Eagles"},
+      {"letter": "B", "text": "The Super Falcons"},
+      {"letter": "C", "text": "The Flying Eagles"},
+      {"letter": "D", "text": "The Golden Eaglets"}
+    ],
+    "correctLetter": "B",
+    "explanation": "The guide identifies the Super Falcons as the Nigerian team that defended its WAFCON title."
+  },
+  {
+    "text": "Which body began online accreditation for officers on Salary Grade Levels 14, 15 and 16 due for promotion in August 2026?",
+    "subjectId": 13,
+    "year": 2026,
+    "topic": "Nigeria Current Affairs — Civil Service — 2026-08",
+    "options": [
+      {"letter": "A", "text": "The Federal Civil Service Commission"},
+      {"letter": "B", "text": "The Independent National Electoral Commission"},
+      {"letter": "C", "text": "The National Universities Commission"},
+      {"letter": "D", "text": "The National Board for Technical Education"}
+    ],
+    "correctLetter": "A",
+    "explanation": "The Federal Civil Service Commission announced the online promotion accreditation on 14 August 2026; source: News Agency of Nigeria reports carried by The People's Gazette."
+  },
+  {
+    "text": "What deadline was reported for the 2026 FCSC online promotion accreditation for GL 14–16 officers?",
+    "subjectId": 13,
+    "year": 2026,
+    "topic": "Nigeria Current Affairs — Civil Service — 2026-08",
+    "options": [
+      {"letter": "A", "text": "14 August 2026"},
+      {"letter": "B", "text": "21 August 2026"},
+      {"letter": "C", "text": "28 August 2026"},
+      {"letter": "D", "text": "30 September 2026"}
+    ],
+    "correctLetter": "C",
+    "explanation": "The reported FCSC accreditation notice directed affected officers to complete the exercise by 28 August 2026."
+  },
+  {
+    "text": "Who was identified as the chairman of the Federal Civil Service Commission in the August 2026 promotion-accreditation report?",
+    "subjectId": 13,
+    "year": 2026,
+    "topic": "Nigeria Current Affairs — Civil Service — 2026-08",
+    "options": [
+      {"letter": "A", "text": "Tunji Olaopa"},
+      {"letter": "B", "text": "Nuhu Ribadu"},
+      {"letter": "C", "text": "Wale Edun"},
+      {"letter": "D", "text": "George Akume"}
+    ],
+    "correctLetter": "A",
+    "explanation": "The August 2026 FCSC promotion-accreditation report attributed the announcement to FCSC Chairman Tunji Olaopa."
+  },
+  {
+    "text": "Which Nigerian education initiative was unveiled by the Minister of Education in August 2026 to provide advanced digital skills and certifications?",
+    "subjectId": 13,
+    "year": 2026,
+    "topic": "Nigeria Current Affairs — Education — 2026-08",
+    "options": [
+      {"letter": "A", "text": "The National Digital Training Academy"},
+      {"letter": "B", "text": "The National Textbook Council"},
+      {"letter": "C", "text": "The Federal Examination Tribunal"},
+      {"letter": "D", "text": "The National Teachers Housing Scheme"}
+    ],
+    "correctLetter": "A",
+    "explanation": "Voice of Nigeria reported on 7 August 2026 that the Minister of Education unveiled the National Digital Training Academy."
+  },
+  {
+    "text": "How many verified PTA teachers did the Federal Government approve for recruitment into the Federal Civil Service in August 2026?",
+    "subjectId": 13,
+    "year": 2026,
+    "topic": "Nigeria Current Affairs — Education — 2026-08",
+    "options": [
+      {"letter": "A", "text": "928"},
+      {"letter": "B", "text": "2,025"},
+      {"letter": "C", "text": "3,252"},
+      {"letter": "D", "text": "5,000"}
+    ],
+    "correctLetter": "C",
+    "explanation": "The Federal Ministry of Education report dated 6 August 2026 cited approval to recruit 3,252 verified PTA teachers."
+  },
+  {
+    "text": "Which institution was reported to have granted City University Abuja an operational licence for 2026/2027 admissions?",
+    "subjectId": 13,
+    "year": 2026,
+    "topic": "Nigeria Current Affairs — Education — 2026-08",
+    "options": [
+      {"letter": "A", "text": "The National Universities Commission"},
+      {"letter": "B", "text": "The Joint Admissions and Matriculation Board"},
+      {"letter": "C", "text": "The National Board for Technical Education"},
+      {"letter": "D", "text": "The Universal Basic Education Commission"}
+    ],
+    "correctLetter": "A",
+    "explanation": "Vanguard reported on 17 August 2026 that the National Universities Commission granted the operational licence."
+  },
+  {
+    "text": "Which school-reentry initiative did UBEC launch in Lagos in August 2026?",
+    "subjectId": 13,
+    "year": 2026,
+    "topic": "Nigeria Current Affairs — Education — 2026-08",
+    "options": [
+      {"letter": "A", "text": "A rehabilitated Alternative High School for Girls"},
+      {"letter": "B", "text": "A national university campus"},
+      {"letter": "C", "text": "A federal sports academy"},
+      {"letter": "D", "text": "A teachers' examination centre"}
+    ],
+    "correctLetter": "A",
+    "explanation": "This was reported by ThisDay on 16 August 2026 as a UBEC effort focused on girls, teenage mothers and learners affected by poverty."
+  },
+  {
+    "text": "Which Nigerian women's football coach was reported dismissed by the NFF on 18 August 2026 after the Super Falcons' World Cup qualification setback?",
+    "subjectId": 13,
+    "year": 2026,
+    "topic": "Nigeria Current Affairs — Football — 2026-08",
+    "options": [
+      {"letter": "A", "text": "Justine Madugu"},
+      {"letter": "B", "text": "Jose Peseiro"},
+      {"letter": "C", "text": "Finidi George"},
+      {"letter": "D", "text": "Augustine Eguavoen"}
+    ],
+    "correctLetter": "A",
+    "explanation": "Goal reported on 18 August 2026 that the NFF dismissed Super Falcons coach Justine Madugu after the qualification setback."
+  },
+  {
+    "text": "Which court restored the African Democratic Congress and four other parties after an earlier deregistration order, according to 2026 political reports?",
+    "subjectId": 13,
+    "year": 2026,
+    "topic": "Nigeria Current Affairs — Politics — 2026",
+    "options": [
+      {"letter": "A", "text": "The Court of Appeal"},
+      {"letter": "B", "text": "The Customary Court of Appeal only"},
+      {"letter": "C", "text": "A State Magistrates' Court"},
+      {"letter": "D", "text": "The ECOWAS Parliament"}
+    ],
+    "correctLetter": "A",
+    "explanation": "BusinessDay reported in 2026 that the Court of Appeal overturned the deregistration order affecting ADC and four other parties."
+  },
+  {
+    "text": "What major political realignment involving Peter Obi and Rabiu Kwankwaso was reported ahead of Nigeria's 2027 election?",
+    "subjectId": 13,
+    "year": 2026,
+    "topic": "Nigeria Current Affairs — Politics — 2026",
+    "options": [
+      {"letter": "A", "text": "They joined the New Democratic Congress"},
+      {"letter": "B", "text": "They joined the Nigerian Labour Congress as a political party"},
+      {"letter": "C", "text": "They left Nigeria permanently"},
+      {"letter": "D", "text": "They were appointed to the Supreme Court"}
+    ],
+    "correctLetter": "A",
+    "explanation": "BBC reported on 4 May 2026 that Peter Obi and Rabiu Kwankwaso joined the New Democratic Congress in a major opposition realignment."
+  }
+]
