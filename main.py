@@ -1,25 +1,30 @@
 import os
 import threading
-from http.server import HTTPServer, BaseHTTPRequestHandler
+from http.server import HTTPServer, SimpleHTTPRequestHandler
 
-# Keep Render's port scanner happy on Web Services
-class HealthCheckHandler(BaseHTTPRequestHandler):
+class ExamAppHandler(SimpleHTTPRequestHandler):
     def do_GET(self):
         self.send_response(200)
+        self.send_header("Content-type", "text/html")
         self.end_headers()
-        self.wfile.write(b"OK")
 
-def start_health_server():
+        # Replace or expand this HTML with your exam practice UI
+        html_content = """
+        <!DOCTYPE html>
+        <html>
+        <head><title>Federal Civil Exam Practice Hub</title></head>
+        <body>
+            <h1>Federal Civil Exam Practice Hub</h1>
+            <p>Welcome! Select your practice test to begin.</p>
+        </body>
+        </html>
+        """
+        self.wfile.write(html_content.encode('utf-8'))
+
+def start_server():
     port = int(os.environ.get("PORT", 8000))
-    server = HTTPServer(("0.0.0.0", port), HealthCheckHandler)
+    server = HTTPServer(("0.0.0.0", port), ExamAppHandler)
     server.serve_forever()
 
-threading.Thread(target=start_health_server, daemon=True).start()
-
-# --- Your existing code starts here ---
-print("Hello from repl-nix-workspace!")
-
-# Keep the script running continuously
-import time
-while True:
-    time.sleep(3600)
+if __name__ == "__main__":
+    start_server()
