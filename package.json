@@ -4,8 +4,8 @@
   "license": "MIT",
   "scripts": {
     "preinstall": "sh -c 'rm -f package-lock.json yarn.lock; case \"$npm_config_user_agent\" in pnpm/*) ;; *) echo \"Use pnpm instead\" >&2; exit 1 ;; esac'",
-    "build": "pnpm -r --if-present run build",
-    "start": "pnpm -r --if-present run start"
+    "build": "pnpm --filter ./artifacts/pastquestions run build",
+    "start": "pnpm --filter ./artifacts/pastquestions run start"
   },
   "private": true,
   "dependencies": {
